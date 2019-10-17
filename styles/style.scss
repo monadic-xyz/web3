@@ -1,0 +1,167 @@
+// Specific styles.
+
+@import "reset";
+@import "colors";
+@import "typography";
+@import "global";
+
+//header
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 80px;
+    width: 70px;
+
+    &:hover {
+      border-bottom: none;
+    }
+
+    @media (max-width: 800px) {
+      margin: 0 auto 24px;
+
+    }
+  }
+
+  nav {
+    display: flex;
+    height: 46px;
+    align-items: center;
+
+    a {
+      margin: 0 12px;
+      color: black;
+
+      &:hover {
+        border-bottom: 1px solid black;
+      }
+
+    }
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+      margin: 0 auto 24px;
+      height: 120px;
+
+      a {
+        font-size: 14px;
+        margin: 0 8px;
+
+      }
+    }
+  }
+}
+
+.specs {
+  li {
+    list-style: none;
+    margin-bottom: 24px;
+
+    h4 {
+      font-family: "FoundersGroteskMono", courier, monospace;
+    }
+  }
+}
+
+
+//Lecturer
+.lecturers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 24px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lecturer {
+  display: flex;
+  flex-direction: row;
+
+  p {
+    margin: 8px 0 24px;
+  }
+
+  img.avatar {
+    height: 64px;
+    width: 64px;
+    margin-right: 16px;
+  }
+
+  img.lecture-logo {
+    width: 160px;
+    // max-height: 72px;
+  }
+
+}
+
+// syllabus
+
+.syllabus {
+
+  .title,
+  .row {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    grid-column-gap: 24px;
+    padding-bottom: 12px;
+
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr;
+      grid-column-gap: 24px;
+      grid-template-rows: 1fr 1fr 1fr;
+      padding-bottom: 24px;
+    }
+
+    li {
+
+      list-style: none;
+
+      &:first-child {
+        font-weight: bold;
+      }
+
+      &:nth-child(3n) {
+        text-align: right;
+      }
+
+      @media (max-width: 800px) {
+        &:nth-child(3n) {
+          text-align: left;
+        }
+
+        &:not(:first-child) {
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+}
+
+//UPDATES
+.updates {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.update p {
+  margin-bottom: 32px;
+}
+
+//FAQ
+
+.question {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.answer {
+  margin-bottom: 32px;
+}

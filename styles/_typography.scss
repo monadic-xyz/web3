@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "FoundersGroteskMono";
+  src: url("../fonts/FoundersGroteskMonoWeb-Regular.woff2") format("woff2"),
+}
+
+@font-face {
+  font-family: "FoundersGrotesk";
+  src: url("../fonts/FoundersGrotesk-Semibold.woff") format("woff"),
+}
+
+// Type scale //
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'FoundersGrotesk', helvetica, arial, sans-serif;
+
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 80px;
+  padding-top: 96px;
+
+  @media (max-width: 800px) {
+    font-size: 64px;
+    line-height: 54px;
+    padding-top: 32px;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 36px;
+    line-height: 32px;
+
+  }
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 64px;
+  padding: 64px 0 16px;
+
+  @media (max-width: 800px) {
+    font-size: 21px;
+    line-height: 25px;
+    padding: 32px 0 16px;
+
+  }
+
+  @media (max-width: 420px) {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 32px 0 32px;
+
+  }
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 33px;
+  padding: 32px 0 16px;
+
+  @media (max-width: 800px) {
+    font-size: 21px;
+    line-height: 25px;
+    padding: 64px 0 16px;
+
+  }
+
+  @media (max-width: 420px) {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 64px 0 32px;
+
+  }
+}
+
+h4 {
+  font-size: 21px;
+  line-height: 25px;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+    line-height: 21px;
+
+  }
+
+  @media (max-width: 420px) {
+    font-size: 14px;
+    line-height: 18px;
+
+  }
+}
+
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+
+  @media (max-width: 800px) {
+    font-size: 14px;
+    line-height: 21px;
+
+  }
+}
+
+li {
+  list-style-type: disc;
+}
