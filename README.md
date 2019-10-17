@@ -1,6 +1,6 @@
 # Gitcoin X Radicle
 
-Web outlet of the Gitcoin X Radile hackathon. Generation of the static output is
+Web outlet of the Gitcoin X Radicle hackathon. Generation of the static output is
 managed with [NEXT.js](https://nextjs.org/). We picked the following
 components:
 
