@@ -1,0 +1,371 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-weight: unset;
+  color: inherit;
+  font-kerning: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+  background-color: transparent; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+@font-face {
+  font-family: "FoundersGroteskMono";
+  src: url(../fonts/FoundersGroteskMonoWeb-Regular-0b1948a2f5176270e14ffb2c31b2b241.woff2) format("woff2"); }
+
+@font-face {
+  font-family: "FoundersGrotesk";
+  src: url(../fonts/FoundersGrotesk-Semibold-7b60bbcedce19cc5918e3d0b21c94155.woff) format("woff"); }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'FoundersGrotesk', helvetica, arial, sans-serif; }
+
+h1 {
+  font-size: 96px;
+  line-height: 80px;
+  padding-top: 96px; }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 64px;
+      line-height: 54px;
+      padding-top: 32px; } }
+  @media (max-width: 420px) {
+    h1 {
+      font-size: 36px;
+      line-height: 32px; } }
+
+h2 {
+  font-size: 56px;
+  line-height: 64px;
+  padding: 64px 0 16px; }
+  @media (max-width: 800px) {
+    h2 {
+      font-size: 21px;
+      line-height: 25px;
+      padding: 32px 0 16px; } }
+  @media (max-width: 420px) {
+    h2 {
+      font-size: 18px;
+      line-height: 21px;
+      padding: 32px 0 32px; } }
+
+h3 {
+  font-size: 28px;
+  line-height: 33px;
+  padding: 32px 0 16px; }
+  @media (max-width: 800px) {
+    h3 {
+      font-size: 21px;
+      line-height: 25px;
+      padding: 64px 0 16px; } }
+  @media (max-width: 420px) {
+    h3 {
+      font-size: 18px;
+      line-height: 21px;
+      padding: 64px 0 32px; } }
+
+h4 {
+  font-size: 21px;
+  line-height: 25px; }
+  @media (max-width: 800px) {
+    h4 {
+      font-size: 16px;
+      line-height: 21px; } }
+  @media (max-width: 420px) {
+    h4 {
+      font-size: 14px;
+      line-height: 18px; } }
+
+p {
+  font-size: 16px;
+  line-height: 24px; }
+  @media (max-width: 800px) {
+    p {
+      font-size: 14px;
+      line-height: 21px; } }
+
+li {
+  list-style-type: disc; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  height: 100%;
+  font-family: "FoundersGroteskMono", courier, monospace;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 24px auto;
+  max-width: 960px;
+  padding: 24px;
+  padding-bottom: 96px; }
+
+h1 {
+  color: #03CD97; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: blue; }
+  a:hover {
+    border-bottom: 1px solid blue; }
+
+.button {
+  padding: 10px 18px 12px;
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 46px; }
+  .button:hover {
+    border-bottom: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); }
+  .button:active {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+  @media (max-width: 800px) {
+    .button {
+      display: flex;
+      margin: 24px 0 0 0;
+      width: 100%;
+      justify-content: center; } }
+
+footer {
+  margin-top: 128px;
+  text-align: center; }
+  footer .subscribe {
+    background-color: #03CD97; }
+
+header {
+  display: flex;
+  justify-content: space-between; }
+  @media (max-width: 800px) {
+    header {
+      flex-direction: column; } }
+  header .logo {
+    height: 80px;
+    width: 70px; }
+    header .logo:hover {
+      border-bottom: none; }
+    @media (max-width: 800px) {
+      header .logo {
+        margin: 0 auto 24px; } }
+  header nav {
+    display: flex;
+    height: 46px;
+    align-items: center; }
+    header nav a {
+      margin: 0 12px;
+      color: black; }
+      header nav a:hover {
+        border-bottom: 1px solid black; }
+    @media (max-width: 800px) {
+      header nav {
+        flex-direction: column;
+        margin: 0 auto 24px;
+        height: 120px; }
+        header nav a {
+          font-size: 14px;
+          margin: 0 8px; } }
+
+.specs li {
+  list-style: none;
+  margin-bottom: 24px; }
+  .specs li h4 {
+    font-family: "FoundersGroteskMono", courier, monospace; }
+
+.lecturers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 48px 24px; }
+  @media (max-width: 800px) {
+    .lecturers {
+      grid-template-columns: 1fr; } }
+
+.lecturer {
+  display: flex;
+  flex-direction: row; }
+  .lecturer p {
+    margin: 8px 0 24px; }
+  .lecturer img.avatar {
+    height: 64px;
+    width: 64px;
+    margin-right: 16px; }
+  .lecturer img.lecture-logo {
+    width: 160px; }
+
+.syllabus .title,
+.syllabus .row {
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-column-gap: 24px;
+  padding-bottom: 12px; }
+  @media (max-width: 800px) {
+    .syllabus .title,
+    .syllabus .row {
+      grid-template-columns: 1fr;
+      grid-column-gap: 24px;
+      grid-template-rows: 1fr 1fr 1fr;
+      padding-bottom: 24px; } }
+  .syllabus .title li,
+  .syllabus .row li {
+    list-style: none; }
+    .syllabus .title li:first-child,
+    .syllabus .row li:first-child {
+      font-weight: bold; }
+    .syllabus .title li:nth-child(3n),
+    .syllabus .row li:nth-child(3n) {
+      text-align: right; }
+    @media (max-width: 800px) {
+      .syllabus .title li:nth-child(3n),
+      .syllabus .row li:nth-child(3n) {
+        text-align: left; }
+      .syllabus .title li:not(:first-child),
+      .syllabus .row li:not(:first-child) {
+        padding-left: 30px; } }
+
+.updates {
+  margin-top: 32px;
+  text-align: center; }
+
+.update p {
+  margin-bottom: 32px; }
+
+.question {
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+.answer {
+  margin-bottom: 32px; }
+
