@@ -26,7 +26,7 @@ yarn export
 
 ### Deploy
 
-This will build and deploy the website to github pages with the custom url [tbd.tbd](https://tbd.tbd).
+This will build and deploy the website to github pages with the custom url [web3.sustainoss.org](https://web3.sustainoss.org).
 
 ```
 yarn deploy
