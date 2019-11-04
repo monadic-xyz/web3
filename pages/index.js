@@ -5,25 +5,26 @@ export default function Index() {
   return (
     <Page>
       <div className="content">
-        <h1>Header</h1>
-        <h3>Subtitle</h3>
-        <p>Body</p>
+        <h1>Sustain Web3</h1>
+        <h3>Boulder Colorado - 2/13/2020</h3>
+        <p>Want to learn about the latest & greatest Open Source Sustainability initaitives happening in the blockchain space? Join industry luminaries, OSS maintainers, economists, and technologists from across the world for a one-day web3 open source sustainability experience.</p>
+        <p>Brought to you by OSCoin & Gitcoin.</p>
         <br />
         <br />
         <ul className="specs">
           <li>
             <h4>
-              &#9889; cool point #1
+              One Day Only
             </h4>
           </li>
           <li>
             <h4>
-              &#9889; cool point #2
+              During Denver Blockchain Week; Just before ETHDenver 2020
             </h4>
           </li>
           <li>
             <h4>
-              &#9889; cool point #3
+              In Boulder Colorado
             </h4>
           </li>
         </ul>
@@ -33,12 +34,10 @@ export default function Index() {
         <Table />
         <br />
         <p>
-          Read lecture descriptions <a href="/resources">here</a>.
+          Read full agenda <a href="/agenda#TODO">here</a>.
         </p>
         <h3>HOWTO</h3>
-        <p>HOWTO body</p>
-        <br />
-        <p>fine print</p>
+        <p>Ticket call to action & fine print will go here.</p>
       </div>
     </Page>
   )
