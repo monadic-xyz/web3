@@ -11,6 +11,13 @@ export default function Header() {
         </a>
       </Link>
       <nav>
+        <div className="links">
+          <Link href="/lecturers" >
+          <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
+            Apply
+          </a>
+          </Link>
+        </div>
       </nav>
     </header>
   )
