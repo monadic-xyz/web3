@@ -11,9 +11,12 @@
 // Type scale //
 
 h1,
+subtitle,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: 'FoundersGrotesk', helvetica, arial, sans-serif;
 
 }
@@ -32,6 +35,26 @@ h1 {
   @media (max-width: 420px) {
     font-size: 36px;
     line-height: 32px;
+
+  }
+}
+
+subtitle {
+  font-size: 28px;
+  line-height: 24px;
+  padding: 32px 0 16px;
+
+  @media (max-width: 800px) {
+    font-size: 21px;
+    line-height: 25px;
+    padding: 32px 0 16px;
+
+  }
+
+  @media (max-width: 420px) {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 32px 0 32px;
 
   }
 }
@@ -77,31 +100,53 @@ h3 {
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
+  padding: 64px 0 0 0;
 
   @media (max-width: 800px) {
     font-size: 16px;
     line-height: 21px;
+    padding: 32px 0 32px;
 
   }
 
   @media (max-width: 420px) {
     font-size: 14px;
     line-height: 18px;
+    padding: 32px 0 32px;
 
   }
 }
 
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 0 32px 72px;
+
+  @media (max-width: 800px) {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 32px 0 32px;
+
+  }
+
+  @media (max-width: 420px) {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 32px 0 32px;
+
+  }
+}
 
 p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 0 0 32px;
 
   @media (max-width: 800px) {
     font-size: 14px;
     line-height: 21px;
-
   }
 }
 

@@ -18,6 +18,25 @@ h1 {
   color: $green;
 }
 
+subtitle {
+  font-family: "FoundersGroteskMono", courier, monospace;
+}
+
+h3 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding: 24px;
+}
+
+h4 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding: 24px;
+}
+
+h5 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding-right: 32px;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
@@ -35,6 +54,7 @@ a {
   border-radius: 2px;
   cursor: pointer;
   height: 46px;
+  position: center;
 
   &:hover {
     border-bottom: 0;

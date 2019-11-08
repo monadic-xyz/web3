@@ -73,33 +73,40 @@ header {
 //Lecturer
 .lecturers {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 48px 24px;
-
-  @media (max-width: 800px) {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  grid-column-gap: 24px;
+  grid-row-gap: 15px;
 }
 
 .lecturer {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 12px 0 0 12px;
 
-  p {
-    margin: 8px 0 24px;
+  .meta {
+    margin: auto;
   }
 
   img.avatar {
-    height: 64px;
-    width: 64px;
-    margin-right: 16px;
+    height: 125px;
+    width: 125px;
   }
+}
 
-  img.lecture-logo {
-    width: 160px;
-    // max-height: 72px;
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 12px 0 0 12px;
+
+  img.logo {
+    height: 150px;
+    width: 150px;
+
   }
-
 }
 
 // syllabus
