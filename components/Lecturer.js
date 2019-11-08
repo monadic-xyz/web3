@@ -1,16 +1,13 @@
 import PropTypes from 'prop-types'
 
-const Lecturer = ({name, bio, logoUrl, picUrl}) => (
+const Lecturer = ({name, company, logoUrl, picUrl}) => (
   <div className="lecturer">
     <div className="imgWrap">
       <img className="avatar" src={picUrl} alt="pic"/>
     </div>
     <div className="meta">
-      <h4>{name}</h4>
-      <p>{bio}</p>
-      {logoUrl !== '' &&
-        <img className="lecture-logo" src={logoUrl} alt="pic"/>
-      }
+      <p>{name}</p>
+      <p><i>{company}</i></p>
     </div>
   </div>
 )

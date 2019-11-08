@@ -26,7 +26,7 @@ yarn export
 
 ### Deploy
 
-This will build and deploy the website to github pages with the custom url [monadic-xyz.github.io](https://monadic-xyz.github.io/).
+This will build and deploy the website to github pages with the custom url [web3.sustainoss.org](https://web3.sustainoss.org/).
 
 ```
 yarn deploy
