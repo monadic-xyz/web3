@@ -147,9 +147,12 @@ button:focus {
   src: url(../fonts/FoundersGrotesk-Semibold-7b60bbcedce19cc5918e3d0b21c94155.woff) format("woff"); }
 
 h1,
+subtitle,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: 'FoundersGrotesk', helvetica, arial, sans-serif; }
 
 h1 {
@@ -165,6 +168,21 @@ h1 {
     h1 {
       font-size: 36px;
       line-height: 32px; } }
+
+subtitle {
+  font-size: 28px;
+  line-height: 24px;
+  padding: 32px 0 16px; }
+  @media (max-width: 800px) {
+    subtitle {
+      font-size: 21px;
+      line-height: 25px;
+      padding: 32px 0 16px; } }
+  @media (max-width: 420px) {
+    subtitle {
+      font-size: 18px;
+      line-height: 21px;
+      padding: 32px 0 32px; } }
 
 h2 {
   font-size: 56px;
@@ -197,20 +215,39 @@ h3 {
       padding: 64px 0 32px; } }
 
 h4 {
-  font-size: 21px;
-  line-height: 25px; }
+  font-size: 18px;
+  line-height: 25px;
+  padding: 64px 0 0 0; }
   @media (max-width: 800px) {
     h4 {
       font-size: 16px;
-      line-height: 21px; } }
+      line-height: 21px;
+      padding: 32px 0 32px; } }
   @media (max-width: 420px) {
     h4 {
       font-size: 14px;
-      line-height: 18px; } }
+      line-height: 18px;
+      padding: 32px 0 32px; } }
+
+h5 {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 5px 0 32px 72px; }
+  @media (max-width: 800px) {
+    h5 {
+      font-size: 16px;
+      line-height: 21px;
+      padding: 32px 0 32px; } }
+  @media (max-width: 420px) {
+    h5 {
+      font-size: 14px;
+      line-height: 18px;
+      padding: 32px 0 32px; } }
 
 p {
-  font-size: 16px;
-  line-height: 24px; }
+  font-size: 14px;
+  line-height: 21px;
+  padding: 0 0 0 32px; }
   @media (max-width: 800px) {
     p {
       font-size: 14px;
@@ -233,7 +270,22 @@ body {
   padding-bottom: 96px; }
 
 h1 {
-  color: #03CD97; }
+  color: #2EB5A0; }
+
+subtitle {
+  font-family: "FoundersGroteskMono", courier, monospace; }
+
+h3 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding: 24px; }
+
+h4 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding: 24px; }
+
+h5 {
+  font-family: "FoundersGroteskMono", courier, monospace;
+  padding-right: 32px; }
 
 a {
   cursor: pointer;
@@ -248,7 +300,8 @@ a {
   color: white;
   border-radius: 2px;
   cursor: pointer;
-  height: 46px; }
+  height: 46px;
+  position: center; }
   .button:hover {
     border-bottom: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); }
@@ -265,7 +318,7 @@ footer {
   margin-top: 128px;
   text-align: center; }
   footer .subscribe {
-    background-color: #03CD97; }
+    background-color: #2EB5A0; }
 
 header {
   display: flex;
@@ -307,23 +360,31 @@ header {
 
 .lecturers {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 48px 24px; }
-  @media (max-width: 800px) {
-    .lecturers {
-      grid-template-columns: 1fr; } }
+  grid-template-columns: 100px 50px 100px;
+  grid-template-rows: 80px auto 80px;
+  grid-column-gap: 24px;
+  grid-row-gap: 15px; }
 
 .lecturer {
   display: flex;
-  flex-direction: row; }
-  .lecturer p {
-    margin: 8px 0 24px; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 12px 0 0 12px; }
+  .lecturer .meta {
+    margin: auto; }
   .lecturer img.avatar {
-    height: 64px;
-    width: 64px;
-    margin-right: 16px; }
-  .lecturer img.lecture-logo {
-    width: 160px; }
+    height: 125px;
+    width: 125px; }
+
+.sponsor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 12px 0 0 12px; }
+  .sponsor img.logo {
+    height: 150px;
+    width: 150px; }
 
 .syllabus .title,
 .syllabus .row {
