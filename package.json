@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_PATH=. next build",
-    "dev": "NODE_PATH=. next",
+    "dev": "next",
     "export": "yarn build && NODE_PATH=. next export -o docs",
     "deploy": "yarn export && sh ./deploy.sh"
   },

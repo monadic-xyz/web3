@@ -8,54 +8,61 @@
 //header
 
 header {
-  display: flex;
-  justify-content: space-between;
 
-  @media (max-width: 800px) {
-    flex-direction: column;
+  .mainLogo {
+    width:100%;
+    max-width:800px;
+    height:auto;
+    margin:auto;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .logo {
-    height: 80px;
-    width: 70px;
-
-    &:hover {
-      border-bottom: none;
-    }
-
-    @media (max-width: 800px) {
-      margin: 0 auto 24px;
-
-    }
+    width: 100px;
+    height:auto;
   }
+  
 
   nav {
-    display: flex;
-    height: 46px;
-    align-items: center;
-
+    height: 50px;
+    min-height: 250px;
     a {
-      margin: 0 12px;
+      padding: 0 12px;
       color: black;
 
       &:hover {
-        border-bottom: 1px solid black;
+        color:$green;
       }
 
-    }
-
-    @media (max-width: 800px) {
-      flex-direction: column;
-      margin: 0 auto 24px;
-      height: 120px;
-
-      a {
-        font-size: 14px;
-        margin: 0 8px;
-
-      }
     }
   }
+}
+
+.links{
+  position: relative;
+  float:right;
+  text-align: right;
+}
+
+.navList{
+  text-align: right;
+}
+.navList li {
+  list-style: none;
+  font-weight: 700;
+  font-size:1.25em;
+  &:hover{
+    font-style: italic;
+  }
+  @media(min-width:1250px){
+    font-size:2em;
+    padding: 25px 0px;
+  }
+}
+.navList a {
+  text-decoration: none;
 }
 
 .specs {
@@ -93,20 +100,21 @@ header {
   img.avatar {
     height: 125px;
     width: 125px;
+    border-radius:50%;
   }
 }
 
-.sponsor {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 12px 0 0 12px;
-
+.sponsorItem {
+  margin:auto;
   img.logo {
-    height: 150px;
-    width: 150px;
-
+    justify-content: space-between;
+    height: auto;
+    width: 200px;
   }
+}
+
+.applyBtn{
+
 }
 
 // syllabus
@@ -163,7 +171,6 @@ header {
 }
 
 //FAQ
-
 .question {
   font-weight: bold;
   margin-bottom: 8px;
