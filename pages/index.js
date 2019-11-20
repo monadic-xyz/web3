@@ -64,7 +64,7 @@ export default function Index() {
           </p>
           <br/>
         </div>
-        <div class="col-12 text-right">
+        <div class="col-12 applyBtn">
           <Link href="/lecturers" >
             <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
               Apply
