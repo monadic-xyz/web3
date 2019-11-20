@@ -78,27 +78,21 @@ export default function Index() {
         <h3 id="sponsors"><SponsorsIcon/> Coordinators</h3>
         <br/>
       <div className="row justify-content-center">
-        <div className="sponsorItem col-8 col-lg-4 text-center">
             <Sponsor
               sponsorUrl = "https://gitcoin.co"
               logoUrl="https://res.cloudinary.com/dvargvav9/image/upload/c_fit,h_150,w_150/v1573137862/GitCoinLogo.a9878d389bce_ftsl3h.svg"
               logoAlt="Gitcoin"
             />
-          </div>
-          <div className="sponsorItem col-8 col-lg-4 text-center">
             <Sponsor
               sponsorUrl = ""
               logoUrl="https://res.cloudinary.com/juliendonck/image/upload/v1549554598/monadic-icon_myhdjk.svg"
               logoAlt=""
             />
-          </div>
-          <div className="sponsorItem col-8 col-lg-4 text-center">
             <Sponsor
             sponsorUrl = ""
             logoUrl="https://demo.identihub.co/assets/Sustain_ICONS_459.svg"
             logoAlt=""
             />
-        </div>
       </div>
     </div>
     </Page>
