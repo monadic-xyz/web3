@@ -9,9 +9,11 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin: 24px auto;
-  max-width: 960px;
   padding: 24px;
   padding-bottom: 96px;
+  @media(max-width:568px){
+    padding-top:0px;
+  }
 }
 
 h1 {
@@ -39,37 +41,27 @@ h5 {
 
 a {
   cursor: pointer;
+  color:$green;
   text-decoration: none;
-  color: blue;
-
-  &:hover {
-    border-bottom: 1px solid blue;
-  }
 }
 
 .button {
-  padding: 10px 18px 12px;
-  background-color: black;
+  font-size:1.5em;
+  font-weight: 700;
+  padding: 15px 25px;
+  background-color: $green;
   color: white;
-  border-radius: 2px;
+  border-radius: 50px;
   cursor: pointer;
-  height: 46px;
-  position: center;
-
+  height: 50px;
+ 
   &:hover {
-    border-bottom: 0;
+    color:white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 
   &:active {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  }
-
-  @media (max-width: 800px) {
-    display: flex;
-    margin: 24px 0 0 0;
-    width: 100%;
-    justify-content: center;
   }
 }
 
@@ -79,5 +71,17 @@ footer {
 
   .subscribe {
     background-color: $green;
+  }
+}
+
+//BOOTSTRAP MODS
+.container{
+  width:80%;
+  max-width:1200px;
+  @media (max-width: 998px){
+    width:90%;
+  }
+  @media (max-width: 678px) {
+    width:100%;
   }
 }

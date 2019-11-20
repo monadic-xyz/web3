@@ -1,24 +1,22 @@
 import Link from 'next/link'
-
-import Logo from 'components/Logo'
+import Head from 'next/head'
+import Nav from '../components/Nav'
+import Logo from '../components/Logo'
 
 export default function Header() {
   return (
     <header>
-      <Link href="/">
-        <a className="logo">
-          <img src="http://bits.owocki.com/831a5ad92226/Screen%20Shot%202019-11-04%20at%202.26.09%20PM.png"></img>
-        </a>
-      </Link>
-      <nav>
-        <div className="links">
-          <Link href="/lecturers" >
-          <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-            Apply
-          </a>
-          </Link>
+      <Head>
+        <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css"/>
+      </Head>
+      <div style={{margin:"auto", width:"100%"}} className="row">
+        <div className="col-6">
+          <Logo logoUrl="https://i.ibb.co/xgJYgqt/sustain-web3.png"/>
         </div>
-      </nav>
+        <div className="col-6">
+          <Nav/>
+        </div>
+      </div>
     </header>
   )
 }

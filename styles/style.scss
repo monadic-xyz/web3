@@ -8,54 +8,61 @@
 //header
 
 header {
-  display: flex;
-  justify-content: space-between;
 
-  @media (max-width: 800px) {
-    flex-direction: column;
+  .mainLogo {
+    width:100%;
+    max-width:200px;
+    height:auto;
+    margin:auto;
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   .logo {
-    height: 80px;
-    width: 70px;
-
-    &:hover {
-      border-bottom: none;
-    }
-
-    @media (max-width: 800px) {
-      margin: 0 auto 24px;
-
-    }
+    width: 100px;
+    height:auto;
   }
-
+  
+//nav
   nav {
-    display: flex;
-    height: 46px;
-    align-items: center;
-
+    position: absolute;
+    z-index:99;
+    right:0px;
     a {
-      margin: 0 12px;
+      padding: 0 12px;
       color: black;
 
       &:hover {
-        border-bottom: 1px solid black;
+        color:$green;
+        font-style: italic;
       }
 
-    }
-
-    @media (max-width: 800px) {
-      flex-direction: column;
-      margin: 0 auto 24px;
-      height: 120px;
-
-      a {
-        font-size: 14px;
-        margin: 0 8px;
-
-      }
     }
   }
+}
+
+.links{
+  position: relative;
+  float:right;
+  text-align: right;
+}
+
+.navList{
+  text-align: right;
+}
+.navList li {
+  list-style: none;
+  font-size:1.5em;
+  padding-bottom:10px;
+  @media(max-width:568px){
+    font-size:0.9em;
+    padding-bottom:5px;
+    margin: -15px 0px;
+  }
+}
+.navList a {
+  text-decoration: none;
 }
 
 .specs {
@@ -71,41 +78,55 @@ header {
 
 
 //Lecturer
-.lecturers {
-  display: grid;
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  grid-column-gap: 24px;
-  grid-row-gap: 15px;
-}
-
 .lecturer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 12px 0 0 12px;
+  justify-content: space-evenly;
 
   .meta {
-    margin: auto;
+  width:125px;
+  text-align: left;
+  @media(max-width:568px){
+    font-size:12px;
+  }
+  }
+
+  .imgWrap {
+    margin:auto;
   }
 
   img.avatar {
     height: 125px;
     width: 125px;
+    border-radius:50%;
+    @media(max-width:568px){
+      height: 75px;
+      width: 75px;
+    }
   }
 }
 
-.sponsor {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 12px 0 0 12px;
+.applyBtn{
+  text-align: right;
+  @media(max-width: 568px){
+    text-align: center;
+    margin-top:15px;
+  }
+}
 
+//Coordinators section
+.sponsorItem {
+  margin:auto;
   img.logo {
+    justify-content: space-between;
     height: 150px;
-    width: 150px;
-
+    width: auto;
+    @media(max-width:568px){
+      height: auto;
+      width: 125px;
+    }
   }
 }
 
@@ -163,7 +184,6 @@ header {
 }
 
 //FAQ
-
 .question {
   font-weight: bold;
   margin-bottom: 8px;

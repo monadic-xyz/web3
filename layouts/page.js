@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 
-import Header from 'components/Header'
-import Footer from 'components/Footer'
-import 'styles/style.scss'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import '../styles/style.scss'
 
 const Page = ({ children }) => (
   <>
