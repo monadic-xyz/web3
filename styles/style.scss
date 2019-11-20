@@ -56,11 +56,9 @@ header {
   font-size:1.5em;
   padding-bottom:10px;
   @media(max-width:568px){
-    font-size:1em;
+    font-size:0.9em;
+    padding-bottom:5px;
     margin: -15px 0px;
-  }
-  @media(min-width:1250px){
-    padding-bottom: 10px;
   }
 }
 .navList a {
