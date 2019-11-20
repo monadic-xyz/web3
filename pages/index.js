@@ -13,21 +13,34 @@ export default function Index() {
       <br/><br/>
       <div className="row justify-content-center">
         <div className="col-12">
-          <ul className="specs">
-            <li>
-              <subtitle><LocationIcon/> Boulder, Colorado</subtitle>
-            </li>
-            <li>
-              <subtitle><CalendarIcon/> February 13th, 2020</subtitle>
-            </li>
+        <hr/>
+        <br />
+          <div className="quote">
+           <h4>
+            <span style={{display:"inline-block", transform:"scaleX(-1)"}}><QuoteIcon/></span>&nbsp;Our modern society — everything from hospitals to stock markets to newspapers to social media — runs on software. But take a closer look, and you’ll find that the tools we use to build software are buckling under demand.&nbsp;<QuoteIcon/>
+           </h4>
+           <h5> - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure
+           </h5>
+          </div>
+          <br />
+          <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day unconference to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.
+          </p>
+          <br/>
+          </div>
+          <div class="col-12 applyBtn">
+            <Link href="/lecturers" >
+              <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
+                Apply
+              </a>
+            </Link>
+            <br/>
+            <br/>
+            <br/>
             <hr/>
-            <li>
-              <subtitle><SpeakersIcon/> Speakers</subtitle>
-            </li>
-          </ul>
+          </div>
         </div>
-      </div>
-      <div className="row justify-content-center">
+        <h3 id="sponsors"><SpeakersIcon/> Speakers</h3>
+        <div className="row justify-content-center">
             <div className="lecturer">
               <Lecturer
                 name="Eleftherios"
@@ -48,34 +61,18 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
               />
             </div>
-      </div>
+        </div>
       <br/>
       <div className="row justify-content-center">
-        <i style={{fontSize:"14px"}}>Read full agenda <a href="/agenda">here</a>.</i>
+        <i style={{fontSize:"14px"}}>Read full agenda <a href="">here</a>.</i>
       </div>
       <br />
-      <div className="row justify-content-center">
-        <div className="col-12">
-        <hr/>
-          <h4><span style={{display:"inline-block", transform:"scaleX(-1)"}}><QuoteIcon/></span>&nbsp;Our modern society — everything from hospitals to stock markets to newspapers to social media — runs on software. But take a closer look, and you’ll find that the tools we use to build software are buckling under demand.&nbsp;<QuoteIcon/></h4>
-          <h5> - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure</h5>
-          <br />
-          <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software. Join us for a one-day unconference to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability.
-          </p>
-          <br/>
-        </div>
-        <div class="col-12 applyBtn">
-          <Link href="/lecturers" >
-            <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-              Apply
-            </a>
-          </Link>
-          <br/>
-          <br/>
-          <hr/>
-        </div>
-      </div>
+      <br/>
+      <br/>
+      <hr/>
+      <div className="row justify-content-left">
         <h3 id="sponsors"><SponsorsIcon/> Coordinators</h3>
+      </div>
         <br/>
       <div className="row justify-content-center">
             <Sponsor
@@ -84,12 +81,12 @@ export default function Index() {
               logoAlt="Gitcoin"
             />
             <Sponsor
-              sponsorUrl = ""
+              sponsorUrl = "https://monadic.xyz/"
               logoUrl="https://res.cloudinary.com/juliendonck/image/upload/v1549554598/monadic-icon_myhdjk.svg"
               logoAlt=""
             />
             <Sponsor
-            sponsorUrl = ""
+            sponsorUrl = "https://sustainoss.org/"
             logoUrl="https://demo.identihub.co/assets/Sustain_ICONS_459.svg"
             logoAlt=""
             />
