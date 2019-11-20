@@ -11,9 +11,10 @@ header {
 
   .mainLogo {
     width:100%;
-    max-width:200px;
+    max-width:530px;
     height:auto;
     margin:auto;
+    padding: 24px 0px 0px 0px;
     &:hover {
       text-decoration: none;
     }
@@ -23,14 +24,15 @@ header {
     width: 100px;
     height:auto;
   }
-  
+
 //nav
   nav {
     position: absolute;
     z-index:99;
     right:0px;
+    padding-top: 24px;
     a {
-      padding: 0 12px;
+      padding: 0px 12px;
       color: black;
 
       &:hover {
@@ -65,6 +67,25 @@ header {
   text-decoration: none;
 }
 
+.navList_sub{
+  text-align: right;
+}
+.navList_sub li {
+  list-style: none;
+  font-size:1.5em;
+  padding-bottom:5px;
+  color:$green;
+  font-style: italic;
+  @media(max-width:568px){
+    font-size:0.9em;
+    padding-bottom:5px;
+    margin: -15px 0px;
+  }
+}
+.navList_sub a {
+  text-decoration: none;
+}
+
 .specs {
   li {
     list-style: none;
@@ -72,9 +93,26 @@ header {
 
     h4 {
       font-family: "FoundersGroteskMono", courier, monospace;
+      }
     }
   }
-}
+
+  .quote {
+    margin: auto;
+    padding: 0px 100px;
+    h4 {
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      font-family: "FoundersGroteskMono", courier, monospace;
+      }
+    h5 {
+      font-size: 16px;
+      text-align: right;
+      padding-left: 420px;
+      font-family: "FoundersGroteskMono", courier,monospace;
+      }
+    }
 
 
 //Lecturer
@@ -87,7 +125,7 @@ header {
 
   .meta {
   width:125px;
-  text-align: left;
+  text-align: center;
   @media(max-width:568px){
     font-size:12px;
   }
@@ -110,6 +148,7 @@ header {
 
 .applyBtn{
   text-align: right;
+  padding: 24px 0px 0px 120px;
   @media(max-width: 568px){
     text-align: center;
     margin-top:15px;
