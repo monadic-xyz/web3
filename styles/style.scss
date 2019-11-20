@@ -53,10 +53,15 @@ header {
 }
 .navList li {
   list-style: none;
-  font-size:1.11em;
+  font-size:1.5em;
+  padding:5px 0px;
+  @media(max-width:568px){
+    font-size:1em;
+    margin: -10px 0px;
+  }
   @media(min-width:1250px){
     font-size:1.5em;
-    padding: 8px 0px;
+    padding: 5px 0px;
   }
 }
 .navList a {

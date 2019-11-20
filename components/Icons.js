@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 
 
 const LocationIcon = ({}) => (
-    <svg height="auto" width="50px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
+    <svg height="auto" width="35px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
 	<title>compass 05</title>
 	<g fill="#9292b3" stroke="#9292b3" strokeLinecap="round" strokeWidth="2">
 		<polygon fill="none" points=" 34,14 28,28 14,34 20,20 "/>
@@ -20,7 +20,7 @@ const LocationIcon = ({}) => (
 )
 
 const CalendarIcon = ({}) => (
-    <svg height="auto" width="50px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
+    <svg height="auto" width="35px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
 	<title>calendar 60</title>
 	<g fill="#9292b3" stroke="#9292b3" strokeLinecap="round" strokeWidth="2">
 		<polyline fill="none" points="38,6 46,6 46,46 2,46 2,6 10,6 " stroke="#9292b3"/>
@@ -33,7 +33,7 @@ const CalendarIcon = ({}) => (
 )
 
 const SpeakersIcon = ({}) => (
-    <svg height="auto" width="50px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
+    <svg height="auto" width="35px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
 	<title>multiple 11</title>
 	<g fill="#9292b3" stroke="#9292b3" strokeLinecap="round" strokeWidth="2">
 		<path d="M9,13L9,13 c-2.209,0-4-1.791-4-4v0c0-2.209,1.791-4,4-4h0c2.209,0,4,1.791,4,4v0C13,11.209,11.209,13,9,13z" fill="none"/>
@@ -47,7 +47,7 @@ const SpeakersIcon = ({}) => (
 )
 
 const SponsorsIcon = ({}) => (
-	<svg height="auto" width="50px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
+	<svg height="auto" width="35px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlSpace="preserve">
 		<title>heart 2</title>
 		<g fill="#9292b3" stroke="#9292b3" strokeLinecap="round" strokeWidth="2">
 			<path d="M42.485,7.515 c-4.686-4.686-12.284-4.686-16.97,0c-0.577,0.577-1.08,1.2-1.515,1.854c-0.435-0.654-0.938-1.277-1.515-1.854 c-4.686-4.686-12.284-4.686-16.97,0c-4.686,4.686-4.686,12.284,0,16.971L24,42.971l18.485-18.485 C47.172,19.799,47.172,12.201,42.485,7.515z" fill="none" stroke="#9292b3"/>
