@@ -16,7 +16,7 @@ export default function Footer() {
       <br />
       <br />
       <br />
-      <i>
+      <i style={{fontSize:"14px"}}>
         For more information, read our <Link href="/faq"><a>FAQ</a></Link> or feel free to <a href="mailto:abbey@monadic.xyz">reach out</a>.
       </i>
     </footer>)
