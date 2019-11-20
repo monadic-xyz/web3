@@ -11,7 +11,7 @@ header {
 
   .mainLogo {
     width:100%;
-    max-width:800px;
+    max-width:200px;
     height:auto;
     margin:auto;
     &:hover {
@@ -24,16 +24,18 @@ header {
     height:auto;
   }
   
-
+//nav
   nav {
-    height: 50px;
-    min-height: 250px;
+    position: absolute;
+    z-index:99;
+    right:0px;
     a {
       padding: 0 12px;
       color: black;
 
       &:hover {
         color:$green;
+        font-style: italic;
       }
 
     }
@@ -51,14 +53,10 @@ header {
 }
 .navList li {
   list-style: none;
-  font-weight: 700;
-  font-size:1.25em;
-  &:hover{
-    font-style: italic;
-  }
+  font-size:1.11em;
   @media(min-width:1250px){
-    font-size:2em;
-    padding: 25px 0px;
+    font-size:1.5em;
+    padding: 8px 0px;
   }
 }
 .navList a {
@@ -78,43 +76,45 @@ header {
 
 
 //Lecturer
-.lecturers {
-  display: grid;
-  grid-template-columns: 100px 50px 100px;
-  grid-template-rows: 80px auto 80px;
-  grid-column-gap: 24px;
-  grid-row-gap: 15px;
-}
-
 .lecturer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 12px 0 0 12px;
+  justify-content: space-evenly;
 
   .meta {
-    margin: auto;
+  width:125px;
+  text-align: left;
+  }
+
+  .imgWrap {
+    margin:auto;
   }
 
   img.avatar {
     height: 125px;
     width: 125px;
     border-radius:50%;
+    @media(max-width:568px){
+      height: 100px;
+      width: 100px;
+    }
   }
 }
 
+//Coordinators section
 .sponsorItem {
   margin:auto;
   img.logo {
     justify-content: space-between;
-    height: auto;
-    width: 200px;
+    height: 150px;
+    width: auto;
+    @media(max-width:568px){
+      height: auto;
+      width: 125px;
+    }
   }
-}
-
-.applyBtn{
-
 }
 
 // syllabus
