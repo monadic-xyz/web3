@@ -108,6 +108,14 @@ header {
   }
 }
 
+.applyBtn{
+  text-align: right;
+  @media(max-width: 568px){
+    text-align: center;
+    margin-top:15px;
+  }
+}
+
 //Coordinators section
 .sponsorItem {
   margin:auto;
