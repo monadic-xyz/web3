@@ -54,14 +54,13 @@ header {
 .navList li {
   list-style: none;
   font-size:1.5em;
-  padding:5px 0px;
+  padding-bottom:10px;
   @media(max-width:568px){
     font-size:1em;
-    margin: -10px 0px;
+    margin: -15px 0px;
   }
   @media(min-width:1250px){
-    font-size:1.5em;
-    padding: 5px 0px;
+    padding-bottom: 10px;
   }
 }
 .navList a {
@@ -91,6 +90,9 @@ header {
   .meta {
   width:125px;
   text-align: left;
+  @media(max-width:568px){
+    font-size:12px;
+  }
   }
 
   .imgWrap {
@@ -102,8 +104,8 @@ header {
     width: 125px;
     border-radius:50%;
     @media(max-width:568px){
-      height: 100px;
-      width: 100px;
+      height: 75px;
+      width: 75px;
     }
   }
 }
