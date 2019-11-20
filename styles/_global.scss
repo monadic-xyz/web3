@@ -11,6 +11,9 @@ body {
   margin: 24px auto;
   padding: 24px;
   padding-bottom: 96px;
+  @media(max-width:568px){
+    padding-top:0px;
+  }
 }
 
 h1 {
