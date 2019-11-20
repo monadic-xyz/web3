@@ -81,12 +81,12 @@ export default function Index() {
               logoAlt="Gitcoin"
             />
             <Sponsor
-              sponsorUrl = ""
+              sponsorUrl = "https://monadic.xyz/"
               logoUrl="https://res.cloudinary.com/juliendonck/image/upload/v1549554598/monadic-icon_myhdjk.svg"
               logoAlt=""
             />
             <Sponsor
-            sponsorUrl = ""
+            sponsorUrl = "https://sustainoss.org/"
             logoUrl="https://demo.identihub.co/assets/Sustain_ICONS_459.svg"
             logoAlt=""
             />
