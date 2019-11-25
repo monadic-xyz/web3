@@ -15,7 +15,7 @@ Row.propTypes = {
 }
 
 const Table = () => (
-  <div className="syllabus">
+  <div className="agenda">
     <Row
       name='1. agenda item'
       author='author name'
