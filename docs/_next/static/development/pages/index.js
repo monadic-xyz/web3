@@ -800,7 +800,7 @@ var Nav = function Nav() {
     __self: this
   }, "About"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     className: "dropdown-item",
-    href: "#speakers",
+    href: "/schedule",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -1081,7 +1081,7 @@ Row.propTypes = {
 
 var Table = function Table() {
   return __jsx("div", {
-    className: "syllabus",
+    className: "agenda",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -12191,7 +12191,7 @@ function Index() {
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    sponsorUrl: "",
+    sponsorUrl: "https://monadic.xyz/",
     logoUrl: "https://res.cloudinary.com/juliendonck/image/upload/v1549554598/monadic-icon_myhdjk.svg",
     logoAlt: "",
     __source: {
@@ -12200,7 +12200,7 @@ function Index() {
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    sponsorUrl: "",
+    sponsorUrl: "https://sustainoss.org/",
     logoUrl: "https://demo.identihub.co/assets/Sustain_ICONS_459.svg",
     logoAlt: "",
     __source: {

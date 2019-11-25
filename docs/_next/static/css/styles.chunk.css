@@ -451,35 +451,38 @@ header nav {
         height: auto;
         width: 125px; } }
 
-.syllabus .title,
-.syllabus .row {
-  display: grid;
-  grid-template-columns: 3fr 2fr 3fr;
-  grid-column-gap: 24px;
-  padding-bottom: 12px; }
-  @media (max-width: 800px) {
-    .syllabus .title,
-    .syllabus .row {
-      grid-template-columns: 1fr;
-      grid-column-gap: 24px;
-      grid-template-rows: 1fr 1fr 1fr;
-      padding-bottom: 24px; } }
-  .syllabus .title li,
-  .syllabus .row li {
-    list-style: none; }
-    .syllabus .title li:first-child,
-    .syllabus .row li:first-child {
-      font-weight: bold; }
-    .syllabus .title li:nth-child(3n),
-    .syllabus .row li:nth-child(3n) {
-      text-align: right; }
+.agenda {
+  padding-top: 32px; }
+  .agenda .title,
+  .agenda .row {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    grid-column-gap: 24px;
+    padding: 0px 24px 24px 24px; }
     @media (max-width: 800px) {
-      .syllabus .title li:nth-child(3n),
-      .syllabus .row li:nth-child(3n) {
-        text-align: left; }
-      .syllabus .title li:not(:first-child),
-      .syllabus .row li:not(:first-child) {
-        padding-left: 30px; } }
+      .agenda .title,
+      .agenda .row {
+        grid-template-columns: 1fr;
+        grid-column-gap: 24px;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-bottom: 24px; } }
+    .agenda .title li,
+    .agenda .row li {
+      list-style: none;
+      padding: 0px 64px 0px 64px; }
+      .agenda .title li:first-child,
+      .agenda .row li:first-child {
+        font-weight: bold; }
+      .agenda .title li:nth-child(3n),
+      .agenda .row li:nth-child(3n) {
+        text-align: right; }
+      @media (max-width: 800px) {
+        .agenda .title li:nth-child(3n),
+        .agenda .row li:nth-child(3n) {
+          text-align: left; }
+        .agenda .title li:not(:first-child),
+        .agenda .row li:not(:first-child) {
+          padding-left: 30px; } }
 
 .updates {
   margin-top: 32px;
