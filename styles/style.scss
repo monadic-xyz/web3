@@ -169,16 +169,16 @@ header {
   }
 }
 
-// syllabus
+// agenda
 
-.syllabus {
-
+.agenda {
+  padding-top: 32px;
   .title,
   .row {
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
     grid-column-gap: 24px;
-    padding-bottom: 12px;
+    padding: 0px 24px 24px 24px;
 
     @media (max-width: 800px) {
       grid-template-columns: 1fr;
@@ -190,6 +190,7 @@ header {
     li {
 
       list-style: none;
+      padding: 0px 64px 0px 64px;
 
       &:first-child {
         font-weight: bold;

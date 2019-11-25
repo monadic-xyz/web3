@@ -7,7 +7,7 @@ import {LocationIcon, CalendarIcon} from '../components/Icons'
                 <ul className="navList">
                     <Link className="dropdown-item" href="/#top"><a><li>Home</li></a></Link>
                     <Link className="dropdown-item" href=""><a ><li>About</li></a></Link>
-                    <Link className="dropdown-item" href="#speakers"><a><li>Schedule</li></a></Link>
+                    <Link className="dropdown-item" href="/schedule"><a><li>Schedule</li></a></Link>
                     <Link className="dropdown-item" href="#sponsors"><a><li>Sponsors</li></a></Link>
                     <Link className="dropdown-item" href=""><a><li>Contact Us</li></a></Link>
                     <Link className="dropdown-item" href="https://gitcoin.typeform.com/to/TlO4BH"><a><li>Apply</li></a></Link>

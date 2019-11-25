@@ -1,15 +1,21 @@
-import Page from 'layouts/page'
+import Link from 'next/link'
+import Page from '../layouts/page'
+import Table from '../components/Table'
+import Lecturer from '../components/Lecturer'
+import Sponsor from '../components/Sponsors'
 
 export default function Index() {
   return (
+    <div className="container">
     <Page>
       <div className="content">
-        <h1>header</h1>
-        <h3>subtitle</h3>
-        <p>body</p>
         <br />
-        <p>more body</p>
+        <h3>Agenda to be announced ✨</h3>
+        <p>SustainWeb3 will have a Speaker track and a Hacker track. The Speaker track will feature keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to learn, hack and brainstorm with different projects and builders in the ecosystem.</p>
+        <br />
       </div>
-    </Page>
+      </Page>
+    </div>
+
   )
 }
