@@ -14,7 +14,7 @@ import {LocationIcon, CalendarIcon} from '../components/Icons'
                     <br/>
                 <ul className="navList_sub">
                      <Link className="dropdown-item" href="../pages/contact"><a><li><LocationIcon/> Boulder, Colorado</li></a></Link>
-                     <Link className="dropdown-item" href="../pages/contact"><a><li><CalendarIcon/> Februrary 13th, 2020</li></a></Link>
+                     <Link className="dropdown-item" href="../pages/contact"><a><li><CalendarIcon/> Feburary 13th, 2020</li></a></Link>
                 </ul>
             </div>
         </nav>
