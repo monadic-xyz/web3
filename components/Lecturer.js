@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 
 const Speaker = ({name, company, companyUrl, picUrl}) => (
-  <div className="col-4 speaker">
+  <div className="col-3 speaker">
     <div className="imgWrap">
       <img className="avatar" src={picUrl} alt="pic"/>
     </div>

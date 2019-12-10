@@ -11,9 +11,7 @@ header {
 
   .mainLogo {
     width:100%;
-    max-width:530px;
     height:auto;
-    margin:auto;
     padding: 24px 0px 0px 0px;
     &:hover {
       text-decoration: none;
@@ -99,7 +97,7 @@ header {
 
   .quote {
     margin: auto;
-    padding: 0px 100px;
+    padding: 0px 85px;
     h4 {
       font-size: 24px;
       line-height: 32px;
@@ -121,6 +119,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
 
   .meta {
   padding-bottom: 24px;

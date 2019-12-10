@@ -8,6 +8,7 @@ export default function Index() {
   return (
     <div className="container">
     <Page>
+    <br/><br/><hr/>
       <div className="content">
         <br />
         <h3>Agenda to be announced ✨</h3>
@@ -18,7 +19,7 @@ export default function Index() {
             </a>
           </Link>
         </div>
-        <p>SustainWeb3 will have a Speaker track and a Hacker track. The Speaker track will feature keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to learn, hack and brainstorm with different projects and builders in the ecosystem.</p>
+        <p>SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source.</p>
         <br />
         <p>Check out some of our <a href="">Speaker</a> talks:</p>
         <Table />

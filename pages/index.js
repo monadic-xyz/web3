@@ -27,19 +27,13 @@ export default function Index() {
           </p>
           <br/>
           </div>
-          <div class="col-11 applyBtn">
-            <Link href="/speakers" >
-              <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-                Apply
-              </a>
-            </Link>
-            <br/>
-            <br/>
-            <br/>
-            <hr/>
-          </div>
+          
         </div>
-        <h3 id="sponsors"><SpeakersIcon/> Speakers</h3>
+        <br/>
+        <br/>
+        <hr/>
+        <br/>
+        <h6 id="sponsors"><SpeakersIcon/> Speakers</h6>
         <br/>
         <br/>
         <div className="container">
@@ -63,6 +57,12 @@ export default function Index() {
                 companyUrl="https://codefund.io/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
               />
+              <Speaker
+                name="Abbey Titcomb"
+                company="Radicle"
+                companyUrl="http://radicle.xyz/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
+              />
             </div>
             <div className="speaker">
               <Speaker
@@ -83,26 +83,12 @@ export default function Index() {
                 companyUrl="https://codefund.io/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
               />
-            </div>
-            <div className="speaker">
-            <Speaker
-                name="Kevin Owocki"
-                company="Gitcoin"
-                companyUrl="https://gitcoin.co"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg"
-              />
               <Speaker
-                name="Abbey Titcomb"
-                company="Radicle"
-                companyUrl="http://radicle.xyz/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
-              />
-              <Speaker
-                name="Jim Jagielski"
-                company="ConsenSys"
-                companyUrl="https://codefund.io/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/jimheadshot_ktk0re.jpg"
-              />
+                  name="Kevin Owocki"
+                  company="Gitcoin"
+                  companyUrl="https://gitcoin.co"
+                  picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg"
+                />
             </div>
         </div>
       </div>
