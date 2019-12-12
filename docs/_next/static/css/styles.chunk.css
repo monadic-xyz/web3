@@ -151,8 +151,7 @@ subtitle,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-family: 'FoundersGrotesk', helvetica, arial, sans-serif; }
 
 h1 {
@@ -202,7 +201,8 @@ h2 {
 h3 {
   font-size: 28px;
   line-height: 33px;
-  padding: 32px 0 16px; }
+  padding: 32px 0 16px;
+  text-align: center; }
   @media (max-width: 800px) {
     h3 {
       font-size: 21px;
@@ -230,7 +230,7 @@ h4 {
       padding: 32px 0 32px; } }
 
 h5 {
-  font-size: 15px;
+  font-size: 1.5em;
   line-height: 20px;
   padding: 5px 0 32px 72px; }
   @media (max-width: 800px) {
@@ -244,10 +244,21 @@ h5 {
       line-height: 18px;
       padding: 32px 0 32px; } }
 
+h6 {
+  font-size: 1.75em; }
+  @media (max-width: 800px) {
+    h6 {
+      font-size: 1.5em;
+      line-height: 25px; } }
+  @media (max-width: 420px) {
+    h6 {
+      font-size: 1.5em;
+      line-height: 21px; } }
+
 p {
   font-size: 18px;
   line-height: 32px;
-  padding: 0 0 0 32px; }
+  padding: 32px 0 0 32px; }
   @media (max-width: 800px) {
     p {
       font-size: 16px;
@@ -309,6 +320,18 @@ a {
   .button:active {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
 
+.button1 {
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 15px 25px;
+  color: #2EB5A0;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 50px;
+  text-align: center; }
+  .button1:active {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); }
+
 footer {
   margin-top: 128px;
   text-align: center; }
@@ -327,9 +350,7 @@ footer {
 
 header .mainLogo {
   width: 100%;
-  max-width: 530px;
   height: auto;
-  margin: auto;
   padding: 24px 0px 0px 0px; }
   header .mainLogo:hover {
     text-decoration: none; }
@@ -397,7 +418,7 @@ header nav {
 
 .quote {
   margin: auto;
-  padding: 0px 100px; }
+  padding: 0px 85px; }
   .quote h4 {
     font-size: 24px;
     line-height: 32px;
@@ -409,26 +430,26 @@ header nav {
     padding-left: 420px;
     font-family: "FoundersGroteskMono", courier,monospace; }
 
-.lecturer {
+.speaker {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 12px 0 0 12px;
   justify-content: space-evenly; }
-  .lecturer .meta {
-    width: 125px;
+  .speaker .meta {
+    padding-bottom: 24px;
+    width: 150px;
     text-align: center; }
-    @media (max-width: 568px) {
-      .lecturer .meta {
+    @media (max-width: 125px) {
+      .speaker .meta {
         font-size: 12px; } }
-  .lecturer .imgWrap {
+  .speaker .imgWrap {
     margin: auto; }
-  .lecturer img.avatar {
-    height: 125px;
-    width: 125px;
+  .speaker img.avatar {
+    height: 150px;
+    width: 150px;
     border-radius: 50%; }
     @media (max-width: 568px) {
-      .lecturer img.avatar {
+      .speaker img.avatar {
         height: 75px;
         width: 75px; } }
 
@@ -456,8 +477,8 @@ header nav {
   .agenda .title,
   .agenda .row {
     display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
-    grid-column-gap: 24px;
+    grid-template-columns: 5fr 6fr;
+    grid-column-gap: 12px;
     padding: 0px 24px 24px 24px; }
     @media (max-width: 800px) {
       .agenda .title,
@@ -469,20 +490,21 @@ header nav {
     .agenda .title li,
     .agenda .row li {
       list-style: none;
-      padding: 0px 64px 0px 64px; }
+      padding: 0px 32px 0px 64px; }
       .agenda .title li:first-child,
       .agenda .row li:first-child {
-        font-weight: bold; }
+        font-weight: bold;
+        text-align: left; }
       .agenda .title li:nth-child(3n),
       .agenda .row li:nth-child(3n) {
-        text-align: right; }
+        text-align: left; }
       @media (max-width: 800px) {
         .agenda .title li:nth-child(3n),
         .agenda .row li:nth-child(3n) {
           text-align: left; }
         .agenda .title li:not(:first-child),
         .agenda .row li:not(:first-child) {
-          padding-left: 30px; } }
+          padding-left: 12px; } }
 
 .updates {
   margin-top: 32px;

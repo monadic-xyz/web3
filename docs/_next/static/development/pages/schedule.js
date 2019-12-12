@@ -25,28 +25,22 @@ function Footer() {
       lineNumber: 6
     },
     __self: this
-  }, __jsx("i", {
+  }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, "Tickets on sale now"), __jsx("br", {
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 9
     },
     __self: this
   }), __jsx("a", {
@@ -56,25 +50,25 @@ function Footer() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Apply Now!"), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Apply here"), __jsx("br", {
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 14
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 15
     },
     __self: this
   }), __jsx("i", {
@@ -83,27 +77,27 @@ function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 16
     },
     __self: this
   }, "For more information, read our ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/faq",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, "FAQ")), " or feel free to ", __jsx("a", {
     href: "mailto:abbey@monadic.xyz",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, "reach out"), "."));
@@ -129,9 +123,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Nav */ "./components/Nav.js");
 /* harmony import */ var _components_Logo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Logo */ "./components/Logo.js");
+/* harmony import */ var _components_Icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Icons */ "./components/Icons.js");
 var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -140,13 +136,13 @@ function Header() {
   return __jsx("header", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx("link", {
@@ -154,7 +150,7 @@ function Header() {
     href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })), __jsx("div", {
@@ -162,40 +158,90 @@ function Header() {
       margin: "auto",
       width: "100%"
     },
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-6",
+    className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, __jsx(_components_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    logoUrl: "https://i.ibb.co/xgJYgqt/sustain-web3.png",
+  }, __jsx("div", {
+    className: "col-12",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  })), __jsx("div", {
-    className: "col-6",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
   }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 15
     },
     __self: this
-  }))));
+  }))), __jsx("div", {
+    style: {
+      margin: "auto",
+      width: "65%",
+      position: "relative",
+      right: "15px"
+    },
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx(_components_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    logoUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }))), __jsx("div", {
+    style: {
+      margin: "auto",
+      width: "100%"
+    },
+    className: "row justify-content-around justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-5 offset-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("h6", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
+    className: "col-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("h6", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, " \uD83D\uDCC6 Feburary 13th, 2020"))));
 }
 
 /***/ }),
@@ -579,13 +625,13 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Lecturer = function Lecturer(_ref) {
+var Speaker = function Speaker(_ref) {
   var name = _ref.name,
       company = _ref.company,
       companyUrl = _ref.companyUrl,
       picUrl = _ref.picUrl;
   return __jsx("div", {
-    className: "col-4 lecturer",
+    className: "col-3 speaker",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -648,8 +694,8 @@ var Lecturer = function Lecturer(_ref) {
   }, company)))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Lecturer);
-Lecturer.propTypes = {
+/* harmony default export */ __webpack_exports__["default"] = (Speaker);
+Speaker.propTypes = {
   name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   company: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   companyUrl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
@@ -751,55 +797,20 @@ var Nav = function Nav() {
       lineNumber: 6
     },
     __self: this
-  }, __jsx("ul", {
-    className: "navList",
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/#top",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "/#top",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Home"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "About"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
+  }, "Home")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/schedule",
     __source: {
       fileName: _jsxFileName,
@@ -809,141 +820,36 @@ var Nav = function Nav() {
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Schedule"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "#sponsors",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 11
+    },
+    __self: this
+  }, "Agenda")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "mailto:abbey@monadic.xyz",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Sponsors"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, "Contact Us"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
+  }, "Contact")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "https://gitcoin.typeform.com/to/TlO4BH",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, "Apply")))), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), __jsx("ul", {
-    className: "navList_sub",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "../pages/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_2__["LocationIcon"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), " Boulder, Colorado"))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    className: "dropdown-item",
-    href: "../pages/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_2__["CalendarIcon"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }), " Februrary 13th, 2020"))))));
+  }, "Apply"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -1037,7 +943,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Row = function Row(_ref) {
   var name = _ref.name,
       author = _ref.author,
-      date = _ref.date;
+      description = _ref.description;
   return __jsx("ul", {
     className: "row",
     __source: {
@@ -1051,32 +957,32 @@ var Row = function Row(_ref) {
       lineNumber: 5
     },
     __self: this
-  }, name), __jsx("li", {
+  }, name, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
-  }, __jsx("a", {
+  }), __jsx("a", {
     href: "/lecturers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
   }, author)), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
-  }, date));
+  }, description));
 };
 
 Row.propTypes = {
   name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   author: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  date: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
 };
 
 var Table = function Table() {
@@ -1084,34 +990,34 @@ var Table = function Table() {
     className: "agenda",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, __jsx(Row, {
-    name: "1. agenda item",
-    author: "author name",
-    date: "4 Nov 2019 \u2013 18:30-20:30",
+    name: "\"A New Hope for OSS Sustainability\"",
+    author: "Kevin Owocki",
+    description: "Blockchains are a new hope for OSS sustainability - In this talk, Gitcoin Founder Kevin Owocki will tell us why.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }), __jsx(Row, {
-    name: "2. agenda item",
-    author: "author name",
-    date: "6 Nov 2019 \u2013 18:30-20:30",
+    name: "\"Startups need a new option: Exit to Community\"",
+    author: "Nathan Schneider",
+    description: "When a startup company takes early investment, typically the expectation is that everyone is working toward one of two \u201Cexit\u201D events: selling the company to a bigger company or selling to retail investors in an initial public offering. This talk explores strategies that could help create a new option for startups: Exit to Community (E2C) - transitioning investor ownership to ownership by the people who rely on it most---in the case of an online platform, its users.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }), __jsx(Row, {
-    name: "3. agenda item",
-    author: "author name",
-    date: "11 Nov 2019 \u2013 18:30-20:30",
+    name: "\"Traveler`s Tales: The 1st 20 Years Of Open Source\"",
+    author: "Jim Jagielski",
+    description: "A look back at the history of the 1st 20 years of open source, and a peek at the next 20 by one of the leaders of the open source movement",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }));
@@ -11872,35 +11778,96 @@ function Index() {
       lineNumber: 10
     },
     __self: this
-  }, __jsx("div", {
-    className: "content",
+  }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, __jsx("br", {
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "content",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }), __jsx("h3", {
+  }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, "Agenda to be announced \u2728"), __jsx("p", {
+  }), __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "SustainWeb3 will have a Speaker track and a Hacker track. The Speaker track will feature keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to learn, hack and brainstorm with different projects and builders in the ecosystem."), __jsx("br", {
+  }, "Agenda to be announced \u2728"), __jsx("div", {
+    "class": "col-7 applyBtn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/speakers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "subscribe button1",
+    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Apply to speak"))), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, "SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source."), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Check out some of our ", __jsx("a", {
+    href: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Speaker"), " talks:"), __jsx(_components_Table__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }))));
