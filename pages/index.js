@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Page from '../layouts/page'
 import Table from '../components/Table'
-import Lecturer from '../components/Lecturer'
+import Speaker from '../components/Lecturer'
 import Sponsor from '../components/Sponsors'
 import {LocationIcon, CalendarIcon, SpeakersIcon, SponsorsIcon, QuoteIcon} from '../components/Icons'
 
@@ -23,45 +23,75 @@ export default function Index() {
            </h5>
           </div>
           <br />
-          <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day unconference to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.
+          <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.
           </p>
           <br/>
           </div>
-          <div class="col-12 applyBtn">
-            <Link href="/lecturers" >
-              <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-                Apply
-              </a>
-            </Link>
-            <br/>
-            <br/>
-            <br/>
-            <hr/>
-          </div>
+          
         </div>
-        <h3 id="sponsors"><SpeakersIcon/> Speakers</h3>
-        <div className="row justify-content-center">
-            <div className="lecturer">
-              <Lecturer
+        <br/>
+        <br/>
+        <hr/>
+        <br/>
+        <h6 id="sponsors"><SpeakersIcon/> Speakers</h6>
+        <br/>
+        <br/>
+        <div className="container">
+        <div className="row align-items-start">
+            <div className="speaker">
+              <Speaker
                 name="Eleftherios"
                 company="Radicle"
                 companyUrl="https://radicle.xyz/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1568990825/VsABh_tY_400x400_hwcjd4.jpg"
               />
-              <Lecturer
-                name="Kevin Owocki"
-                company="Gitcoin"
-                companyUrl="https://gitcoin.co"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/c_scale,h_125,w_125/v1573135377/0_OrIT7YWnKspLjGyM_fdas48.jpg"
+              <Speaker
+                name="Dandelion Mane"
+                company="SourceCred"
+                companyUrl="https://sourcecred.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978850/1400023_bvk5yt.jpg"
               />
-              <Lecturer
+              <Speaker
                 name="Eric Berry"
                 company="CodeFund"
                 companyUrl="https://codefund.io/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
               />
+              <Speaker
+                name="Abbey Titcomb"
+                company="Radicle"
+                companyUrl="http://radicle.xyz/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
+              />
+            </div>
+            <div className="speaker">
+              <Speaker
+                name="Lane Rettig"
+                company="Space Mesh"
+                companyUrl="https://spacemesh.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg"
+              />
+              <Speaker
+                name="Nathan Schneider"
+                company="CU Boulder"
+                companyUrl="https://nathanschneider.info"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/nathanheadshot_eawgvk.jpg"
+              />
+              <Speaker
+                name="Jim Jagielski"
+                company="ConsenSys"
+                companyUrl="https://codefund.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
+              />
+              <Speaker
+                  name="Kevin Owocki"
+                  company="Gitcoin"
+                  companyUrl="https://gitcoin.co"
+                  picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg"
+                />
             </div>
         </div>
+      </div>
       <br/>
       <div className="row justify-content-center">
         <i style={{fontSize:"14px"}}>Read full agenda <a href="">here</a>.</i>

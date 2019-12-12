@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 
-const Lecturer = ({name, company, companyUrl, picUrl}) => (
-  <div className="col-4 lecturer">
+const Speaker = ({name, company, companyUrl, picUrl}) => (
+  <div className="col-3 speaker">
     <div className="imgWrap">
       <img className="avatar" src={picUrl} alt="pic"/>
     </div>
@@ -13,9 +13,9 @@ const Lecturer = ({name, company, companyUrl, picUrl}) => (
   </div>
 )
 
-export default Lecturer
+export default Speaker
 
-Lecturer.propTypes = {
+Speaker.propTypes = {
   name: PropTypes.string.isRequired,
   company: PropTypes.string.isRequired,
   companyUrl: PropTypes.string.isRequired,

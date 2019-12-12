@@ -54,11 +54,26 @@ a {
   border-radius: 50px;
   cursor: pointer;
   height: 50px;
- 
+
   &:hover {
     color:white;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
+
+  &:active {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.button1 {
+  font-size:1.25em;
+  font-weight: 700;
+  padding: 15px 25px;
+  color: $green;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 50px;
+  text-align: center;
 
   &:active {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
