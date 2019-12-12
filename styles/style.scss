@@ -11,9 +11,7 @@ header {
 
   .mainLogo {
     width:100%;
-    max-width:530px;
     height:auto;
-    margin:auto;
     padding: 24px 0px 0px 0px;
     &:hover {
       text-decoration: none;
@@ -99,7 +97,7 @@ header {
 
   .quote {
     margin: auto;
-    padding: 0px 100px;
+    padding: 0px 85px;
     h4 {
       font-size: 24px;
       line-height: 32px;
@@ -115,18 +113,19 @@ header {
     }
 
 
-//Lecturer
-.lecturer {
+//Speaker
+.speaker {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 12px 0 0 12px;
   justify-content: space-evenly;
 
+
   .meta {
-  width:125px;
+  padding-bottom: 24px;
+  width:150px;
   text-align: center;
-  @media(max-width:568px){
+  @media(max-width:125px){
     font-size:12px;
   }
   }
@@ -136,8 +135,8 @@ header {
   }
 
   img.avatar {
-    height: 125px;
-    width: 125px;
+    height: 150px;
+    width: 150px;
     border-radius:50%;
     @media(max-width:568px){
       height: 75px;
@@ -176,8 +175,8 @@ header {
   .title,
   .row {
     display: grid;
-    grid-template-columns: 3fr 2fr 3fr;
-    grid-column-gap: 24px;
+    grid-template-columns: 5fr 6fr;
+    grid-column-gap: 12px;
     padding: 0px 24px 24px 24px;
 
     @media (max-width: 800px) {
@@ -190,14 +189,15 @@ header {
     li {
 
       list-style: none;
-      padding: 0px 64px 0px 64px;
+      padding: 0px 32px 0px 64px;
 
       &:first-child {
         font-weight: bold;
+        text-align: left;
       }
 
       &:nth-child(3n) {
-        text-align: right;
+        text-align: left;
       }
 
       @media (max-width: 800px) {
@@ -206,7 +206,7 @@ header {
         }
 
         &:not(:first-child) {
-          padding-left: 30px;
+          padding-left: 12px;
         }
       }
     }

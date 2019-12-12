@@ -8,14 +8,21 @@ export default function Index() {
   return (
     <div className="container">
     <Page>
+    <br/><br/><hr/>
       <div className="content">
         <br />
         <h3>Agenda to be announced ✨</h3>
-        <p>SustainWeb3 will have a Speaker track and a Hacker track. The Speaker track will feature keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to learn, hack and brainstorm with different projects and builders in the ecosystem.</p>
+        <div class="col-7 applyBtn">
+          <Link href="/speakers" >
+            <a className="subscribe button1" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
+              Apply to speak
+            </a>
+          </Link>
+        </div>
+        <p>SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source.</p>
         <br />
-        <a className="subscribe button" href="mailto:abbey@monadic.xyz" target="_blank" rel="noopener noreferrer">
-          Apply to speak
-        </a>
+        <p>Check out some of our <a href="">Speaker</a> talks:</p>
+        <Table />
       </div>
       </Page>
     </div>
