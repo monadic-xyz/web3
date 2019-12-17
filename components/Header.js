@@ -21,10 +21,10 @@ export default function Header() {
         </div>
       </div>
         <div style={{margin:"auto", width:"100%"}} className="row justify-content-around justify-content-center">
-          <div className="col-5 offset-1">
+          <div className="subtitle col-5 offset-1">
             <h6> 📍 Boulder, Colorado</h6>
           </div>
-          <div className="col-5">
+          <div className="subtitle col-5">
             <h6> 📆 Feburary 13th, 2020</h6>
           </div>
       </div>

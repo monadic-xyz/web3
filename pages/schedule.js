@@ -11,8 +11,10 @@ export default function Index() {
     <br/><br/><hr/>
       <div className="content">
         <br />
-        <h3>Agenda to be announced ✨</h3>
-        <div class="col-7 applyBtn">
+        <div class="row justify-content-center">
+          <h3>Agenda to be announced ✨</h3>
+        </div>
+        <div class="row justify-content-center">
           <Link href="/speakers" >
             <a className="subscribe button1" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
               Apply to speak
