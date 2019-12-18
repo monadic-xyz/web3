@@ -14,7 +14,7 @@ import {LocationIcon, CalendarIcon} from '../components/Icons'
               <a>Contact</a>
             </Link>
             <Link href="https://gitcoin.typeform.com/to/TlO4BH">
-              <a>Apply</a>
+              <a>Attend!</a>
             </Link>
           </div>
         </nav>
