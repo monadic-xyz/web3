@@ -53,7 +53,7 @@ function Footer() {
       lineNumber: 10
     },
     __self: this
-  }, "Apply Now!"), __jsx("br", {
+  }, "Signup here!"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -80,20 +80,7 @@ function Footer() {
       lineNumber: 16
     },
     __self: this
-  }, "For more information, read our ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "FAQ")), " or feel free to ", __jsx("a", {
+  }, "For more information feel free to ", __jsx("a", {
     href: "mailto:abbey@monadic.xyz",
     __source: {
       fileName: _jsxFileName,
@@ -216,7 +203,7 @@ function Header() {
     },
     __self: this
   }, __jsx("div", {
-    className: "col-5 offset-1",
+    className: "subtitle col-5 offset-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -229,7 +216,7 @@ function Header() {
     },
     __self: this
   }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
-    className: "col-5",
+    className: "subtitle col-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -12094,49 +12081,100 @@ function Index() {
       lineNumber: 100
     },
     __self: this
-  }), __jsx("br", {
+  }), __jsx("div", {
+    className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 101
     },
     __self: this
-  }), __jsx("hr", {
+  }, __jsx("i", {
+    style: {
+      fontSize: "14px"
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 102
     },
     __self: this
-  }), __jsx("div", {
-    className: "row justify-content-left",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103
-    },
-    __self: this
-  }, __jsx("h3", {
-    id: "sponsors",
+  }, "Have something to say about open source sustainability in Web3?")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104
-    },
-    __self: this
-  }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 104
-    },
-    __self: this
-  }), " Coordinators")), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 105
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "subscribe button",
+    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, "Apply to speak \u2728")), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }), __jsx("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "row justify-content-left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }, __jsx("h3", {
+    id: "sponsors",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }), " Coordinators")), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12145,7 +12183,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 119
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12154,7 +12192,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 124
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12163,7 +12201,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 129
     },
     __self: this
   })))));

@@ -359,6 +359,13 @@ header .logo {
   width: 100px;
   height: auto; }
 
+header .subtitle {
+  font-size: 1em; }
+  @media (max-width: 568px) {
+    header .subtitle {
+      font-size: 0.8em;
+      font-size: 12px; } }
+
 header nav {
   position: absolute;
   z-index: 99;
