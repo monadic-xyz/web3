@@ -27,7 +27,7 @@ export default function Index() {
           </p>
           <br/>
           </div>
-          
+
         </div>
         <br/>
         <br/>
@@ -96,7 +96,18 @@ export default function Index() {
       <div className="row justify-content-center">
         <i style={{fontSize:"14px"}}>Read full agenda <a href="">here</a>.</i>
       </div>
-      <br />
+      <br/>
+      <br/>
+      <div className="row justify-content-center">
+        <i style={{fontSize:"14px"}}>Have something to say about open source sustainability in Web3?</i>
+      </div>
+      <br/>
+      <div className="row justify-content-center">
+      <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
+        Apply to speak ✨
+      </a>
+      </div>
+      <br/>
       <br/>
       <br/>
       <hr/>
