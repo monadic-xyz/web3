@@ -53,7 +53,7 @@ function Footer() {
       lineNumber: 10
     },
     __self: this
-  }, "Apply Now!"), __jsx("br", {
+  }, "Signup here!"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -80,20 +80,7 @@ function Footer() {
       lineNumber: 16
     },
     __self: this
-  }, "For more information, read our ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "FAQ")), " or feel free to ", __jsx("a", {
+  }, "For more information feel free to ", __jsx("a", {
     href: "mailto:abbey@monadic.xyz",
     __source: {
       fileName: _jsxFileName,
@@ -216,7 +203,7 @@ function Header() {
     },
     __self: this
   }, __jsx("div", {
-    className: "col-5 offset-1",
+    className: "subtitle col-5 offset-1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -229,7 +216,7 @@ function Header() {
     },
     __self: this
   }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
-    className: "col-5",
+    className: "subtitle col-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -11809,24 +11796,31 @@ function Index() {
       lineNumber: 13
     },
     __self: this
-  }), __jsx("h3", {
+  }), __jsx("div", {
+    "class": "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
-  }, "Agenda to be announced \u2728"), __jsx("div", {
-    "class": "col-7 applyBtn",
+  }, __jsx("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
+    },
+    __self: this
+  }, "Agenda to be announced \u2728")), __jsx("div", {
+    "class": "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
     },
     __self: this
   }, __jsx("a", {
@@ -11836,38 +11830,38 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }, "Apply to speak"))), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 24
     },
     __self: this
   }, "SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source."), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 25
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     },
     __self: this
   }, "Check out some of our ", __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 26
     },
     __self: this
   }, "Speaker"), " talks:"), __jsx(_components_Table__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 27
     },
     __self: this
   }))));
@@ -11875,7 +11869,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js ***!
   \***************************************************************************************************************************************************************/
@@ -11898,5 +11892,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=schedule.js.map

@@ -91,13 +91,22 @@ export default function Index() {
                 />
               </div>
             </div>
-          </div>
+        </div>
           <br />
           <div className="row justify-content-center">
             <i style={{ fontSize: "14px" }}>Read full agenda <a href="">here</a>.</i>
           </div>
           <br />
           <br />
+          <div className="row justify-content-center">
+            <i style={{fontSize:"14px"}}>Have something to say about open source sustainability in Web3?</i>
+          </div>
+          <br />
+          <div className="row justify-content-center">
+            <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
+            Apply to speak ✨
+            </a>
+          </div>
           <br />
           <hr />
           <div className="row justify-content-left">

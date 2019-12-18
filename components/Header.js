@@ -31,6 +31,7 @@ export default function Header() {
           <Logo logoUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg" />
         </div>
       </div>
+    
       <div style={{ margin: "auto", width: "100%" }} className="row justify-content-around justify-content-center">
         <div className="col-5 offset-1">
           <h6> 📍 Boulder, Colorado</h6>
@@ -38,6 +39,7 @@ export default function Header() {
         <div className="col-5">
           <h6> 📆 Feburary 13th, 2020</h6>
         </div>
+
       </div>
     </header>
   )
