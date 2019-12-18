@@ -132,12 +132,100 @@ function Header() {
       lineNumber: 10
     },
     __self: this
-  }, __jsx("link", {
+  }, __jsx("meta", {
+    name: "twitter:card",
+    content: "summary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:site",
+    content: "@SustainOSS",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:title",
+    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:description",
+    content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:url",
+    content: "https://web3.sustainoss.org",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:type",
+    content: "website",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:title",
+    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:image",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "shortcut icon",
+    href: "/static/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx("link", {
     rel: "stylesheet",
     href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 22
     },
     __self: this
   })), __jsx("div", {
@@ -148,20 +236,20 @@ function Header() {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 24
     },
     __self: this
   }, __jsx("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 25
     },
     __self: this
   }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 26
     },
     __self: this
   }))), __jsx("div", {
@@ -174,21 +262,21 @@ function Header() {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 29
     },
     __self: this
   }, __jsx("div", {
     className: "col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 30
     },
     __self: this
   }, __jsx(_components_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
     logoUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 31
     },
     __self: this
   }))), __jsx("div", {
@@ -199,33 +287,33 @@ function Header() {
     className: "row justify-content-around justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 35
     },
     __self: this
   }, __jsx("div", {
-    className: "subtitle col-5 offset-1",
+    className: "col-5 offset-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 36
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 37
     },
     __self: this
   }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
-    className: "subtitle col-5",
+    className: "col-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 39
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 40
     },
     __self: this
   }, " \uD83D\uDCC6 Feburary 13th, 2020"))));
@@ -12126,55 +12214,43 @@ function Index() {
       lineNumber: 110
     },
     __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112
-    },
-    __self: this
   }), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 111
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 112
     },
     __self: this
   }, __jsx("h3", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 113
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 113
     },
     __self: this
   }), " Coordinators")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 115
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 116
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12183,7 +12259,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 117
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12192,7 +12268,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 122
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12201,7 +12277,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 127
     },
     __self: this
   })))));
