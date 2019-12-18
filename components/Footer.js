@@ -8,13 +8,13 @@ export default function Footer() {
       <br/>
       <br/>
       <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-        Apply Now!
+        Signup here!
       </a>
       <br />
       <br />
       <br />
       <i style={{fontSize:"14px"}}>
-        For more information, read our <Link href="/faq"><a>FAQ</a></Link> or feel free to <a href="mailto:abbey@monadic.xyz">reach out</a>.
+        For more information feel free to <a href="mailto:abbey@monadic.xyz">reach out</a>.
       </i>
     </footer>)
 }
