@@ -10,6 +10,7 @@ export default function Header() {
       <Head>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@SustainOSS" />
+        <title>Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp</title>
         <meta name="twitter:title" content="Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp" />
         <meta name="twitter:description" content="we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world" />
         <meta name="twitter:image" content="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg" />
