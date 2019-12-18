@@ -10,9 +10,14 @@
 header {
 
   .mainLogo {
+    display: block;
     width:100%;
     height:auto;
+    margin: 0 auto;
     padding: 24px 0px 0px 0px;
+    @media (min-width: 768px) {
+      width: 65%;      
+    }
     &:hover {
       text-decoration: none;
     }
@@ -28,6 +33,13 @@ header {
     @media(max-width:568px){
       font-size:0.8em;
       font-size: 12px;
+    }
+  }
+
+  .place small{
+    margin-left: 40px;
+    @media (min-width: 768px) {
+      margin-left: 50px;      
     }
   }
 
@@ -105,14 +117,19 @@ header {
 
   .quote {
     margin: auto;
-    padding: 0px 85px;
+    padding: 0px 30px;
+    @media (min-width: 768px) {
+      padding: 0px 85px;
+    }
     h4 {
+      padding: 0;
       font-size: 24px;
       line-height: 32px;
       text-align: center;
       font-family: "FoundersGroteskMono", courier, monospace;
       }
     h5 {
+      padding: 30px 0 0 0;
       font-size: 16px;
       text-align: right;
       font-family: "FoundersGroteskMono", courier,monospace;
@@ -121,37 +138,6 @@ header {
     }
 
 
-//Speaker
-.speaker {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-
-  .meta {
-  padding-bottom: 24px;
-  width:150px;
-  text-align: center;
-  @media(max-width:125px){
-    font-size:12px;
-  }
-  }
-
-  .imgWrap {
-    margin:auto;
-  }
-
-  img.avatar {
-    height: 150px;
-    width: 150px;
-    border-radius:50%;
-    @media(max-width:568px){
-      height: 75px;
-      width: 75px;
-    }
-  }
-}
 
 .applyBtn{
   text-align: right;

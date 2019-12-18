@@ -31,20 +31,19 @@ export default function Header() {
           <Nav />
         </div>
       </div>
-      <div style={{ margin: "auto", width: "65%", position: "relative", right: "15px" }} className="row">
+      <div className="row">
         <div className="col">
           <Logo logoUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg" />
         </div>
       </div>
-
-      <div style={{ margin: "auto", width: "100%" }} className="row justify-content-around justify-content-center">
-        <div className="col-5 offset-1">
+      <div class="row justify-content-around justify-content-center">
+        <div class="col-12 col-sm-5 offset-sm-1 pb-1 pb-sm-0 date">
           <h6> 📍 Boulder, Colorado</h6>
         </div>
-        <div className="col-5">
+        <div class="col-12 col-sm-5 mt-3 mt-sm-0 place">
           <h6> 📆 Feburary 13th, 2020</h6>
+          <small>The day before Ethdenver</small>
         </div>
-
       </div>
     </header>
   )
