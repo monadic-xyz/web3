@@ -44,7 +44,7 @@ function Footer() {
     },
     __self: this
   }), __jsx("a", {
-    className: "subscribe button",
+    className: "button",
     href: "https://gitcoin.typeform.com/to/TlO4BH",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -53,7 +53,7 @@ function Footer() {
       lineNumber: 10
     },
     __self: this
-  }, "Signup here!"), __jsx("br", {
+  }, "Sign up to attend!"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -148,12 +148,18 @@ function Header() {
       lineNumber: 12
     },
     __self: this
-  }), __jsx("meta", {
+  }), __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp"), __jsx("meta", {
     name: "twitter:title",
     content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), __jsx("meta", {
@@ -161,15 +167,15 @@ function Header() {
     content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }), __jsx("meta", {
     name: "twitter:image",
-    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }), __jsx("meta", {
@@ -177,7 +183,7 @@ function Header() {
     content: "https://web3.sustainoss.org",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
     },
     __self: this
   }), __jsx("meta", {
@@ -185,7 +191,7 @@ function Header() {
     content: "website",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 20
     },
     __self: this
   }), __jsx("meta", {
@@ -193,7 +199,7 @@ function Header() {
     content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 21
     },
     __self: this
   }), __jsx("meta", {
@@ -201,15 +207,15 @@ function Header() {
     content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     },
     __self: this
   }), __jsx("meta", {
     property: "og:image",
-    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
     },
     __self: this
   }), __jsx("link", {
@@ -217,7 +223,7 @@ function Header() {
     href: "/static/favicon.ico",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 26
     },
     __self: this
   }), __jsx("link", {
@@ -225,7 +231,7 @@ function Header() {
     href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 27
     },
     __self: this
   })), __jsx("div", {
@@ -236,20 +242,20 @@ function Header() {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 29
     },
     __self: this
   }, __jsx("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 30
     },
     __self: this
   }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 31
     },
     __self: this
   }))), __jsx("div", {
@@ -262,21 +268,21 @@ function Header() {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 34
     },
     __self: this
   }, __jsx("div", {
     className: "col",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 35
     },
     __self: this
   }, __jsx(_components_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
     logoUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 36
     },
     __self: this
   }))), __jsx("div", {
@@ -287,36 +293,74 @@ function Header() {
     className: "row justify-content-around justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
   }, __jsx("div", {
     className: "col-5 offset-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 41
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 42
     },
     __self: this
   }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
     className: "col-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 44
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 45
     },
     __self: this
-  }, " \uD83D\uDCC6 Feburary 13th, 2020"))));
+  }, " \uD83D\uDCC6 Feburary 13th, 2020")), __jsx("div", {
+    className: "row col justify-content-center",
+    style: {
+      top: "64px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "subscribe button",
+    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Sign up to attend!"))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55
+    },
+    __self: this
+  }));
 }
 
 /***/ }),
@@ -924,7 +968,7 @@ var Nav = function Nav() {
       lineNumber: 17
     },
     __self: this
-  }, "Apply"))));
+  }, "Attend!"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -11897,59 +11941,93 @@ function Index() {
       lineNumber: 15
     },
     __self: this
-  }, "Agenda to be announced \u2728")), __jsx("div", {
-    "class": "row justify-content-center",
+  }, "Agenda to be announced \u2728")), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: this
+  }, "SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source."), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("i", {
+    style: {
+      fontSize: "14px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Have something to say about open source sustainability in Web3?")), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx("div", {
+    "class": "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/speakers",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 24
     },
     __self: this
   }, __jsx("a", {
-    className: "subscribe button1",
+    className: "subscribe button",
     href: "https://gitcoin.typeform.com/to/pkjlfI",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Apply to speak"))), __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "SustainWeb3 will have a main Speaker featuring keynotes, interactive discussions, and panels with individuals from the Web3 Ecosystem. The Workshop track will give particpants the opportunity to actively discuss, brainstorm, and workshop different topics related to sustaining open source."), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 25
+    },
+    __self: this
+  }, "Apply to speak"))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), __jsx("hr", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
-  }, "Check out some of our ", __jsx("a", {
+  }, "A look at some of our ", __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 32
     },
     __self: this
   }, "Speaker"), " talks:"), __jsx(_components_Table__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 33
     },
     __self: this
   }))));
