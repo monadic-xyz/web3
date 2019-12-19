@@ -135,7 +135,7 @@ export default function Index() {
         </div>
         <div className="justify-content-center">
         <br/>
-        <p>SustainWeb3 is also part of the <a href="https://gitcoin.co/hackathon/onboard/sustain-web3/" target="_blank" rel="noopener noreferrer">Gitcoin SustainWeb3 Virtual Hackathon</a>, a two-week virtual hackathon to help grow the decentralized web!</p>
+        <p>In addition to SustainWeb3, Gitcoin will hosting a <a href="https://gitcoin.co/hackathon/onboard/sustain-web3/" target="_blank" rel="noopener noreferrer">two week virtual hackathon</a> leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3.</p>
         </div>
 
       </Page>
