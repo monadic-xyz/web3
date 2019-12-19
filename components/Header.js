@@ -44,8 +44,16 @@ export default function Header() {
         <div className="col-5">
           <h6> 📆 Feburary 13th, 2020</h6>
         </div>
-
+        <div className="row col justify-content-center" style={{ top: "64px" }}>
+          <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
+          Sign up to attend!
+          </a>
+        </div>
       </div>
+      <br />
+      <br/>
+      <br/>
+
     </header>
   )
 }

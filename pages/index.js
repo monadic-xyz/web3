@@ -19,12 +19,12 @@ export default function Index() {
                 <h4>
                   <span style={{ display: "inline-block", transform: "scaleX(-1)" }}><QuoteIcon /></span>&nbsp;Our modern society — everything from hospitals to stock markets to newspapers to social media — runs on software. But take a closer look, and you’ll find that the tools we use to build software are buckling under demand.&nbsp;<QuoteIcon />
                 </h4>
-                <h5> - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure
-           </h5>
+                <h5> - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure </h5>
               </div>
               <br />
-              <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.
-          </p>
+              <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.</p>
+              <p>This event is <em>free to attend</em> with a "pay-what-you-can" donation model. The goal is to stick to traditional FOSS values and fund this event by and for the community. We'll be collecting donations through a <a href="https://gitcoin.co/grants/195/sustain-web3-sustainers" target="_blank" rel="noopener noreferrer">Gitcoin Grant</a>. Because of <a href="https://gitcoin.co/blog/gitcoin-grants-2020/" target="_blank" rel="noopener noreferrer">Quadratic matching</a> on the Gitcoin platform, even small contributions could go a long way.</p>
+              <p>→ Can't attend but interested in sponsoring SustainWeb3? Get in touch <a href="https://gitcoin.co/grants/195/sustain-web3-sustainers" target="_blank" rel="noopener noreferrer">here</a>.</p>
               <br />
             </div>
 
@@ -108,12 +108,13 @@ export default function Index() {
             </a>
           </div>
           <br />
+          <br />
           <hr />
           <div className="row justify-content-left">
             <h3 id="sponsors"><SponsorsIcon /> Coordinators</h3>
           </div>
           <br />
-          <div className="row justify-content-center">
+          <div className="row justify-content-around">
             <Sponsor
               sponsorUrl="https://gitcoin.co"
               logoUrl="https://res.cloudinary.com/dvargvav9/image/upload/c_fit,h_150,w_150/v1573137862/GitCoinLogo.a9878d389bce_ftsl3h.svg"
@@ -130,7 +131,13 @@ export default function Index() {
               logoAlt=""
             />
           </div>
+
         </div>
+        <div className="justify-content-center">
+        <br/>
+        <p>SustainWeb3 is also part of the <a href="https://gitcoin.co/hackathon/onboard/sustain-web3/" target="_blank" rel="noopener noreferrer">Gitcoin SustainWeb3 Virtual Hackathon</a>, a two-week virtual hackathon to help grow the decentralized web!</p>
+        </div>
+
       </Page>
     </div>
   )
