@@ -12394,7 +12394,7 @@ function Index() {
       lineNumber: 138
     },
     __self: this
-  }, "SustainWeb3 is also part of the ", __jsx("a", {
+  }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
     href: "https://gitcoin.co/hackathon/onboard/sustain-web3/",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -12403,7 +12403,7 @@ function Index() {
       lineNumber: 138
     },
     __self: this
-  }, "Gitcoin SustainWeb3 Virtual Hackathon"), ", a two-week virtual hackathon to help grow the decentralized web!"))));
+  }, "two week virtual hackathon"), " leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3."))));
 }
 
 /***/ }),
