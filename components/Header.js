@@ -80,9 +80,14 @@ export default function Header() {
           </div>
         </div>
       </div>
+      <br/>
+      <br/>
+      <div className="row col justify-content-center">
+        <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
+      </div>
       <br />
       <br/>
-      <br/>
+      
 
     </header>
   )
