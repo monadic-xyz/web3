@@ -1,17 +1,16 @@
 // Specific styles.
 
-@import "reset";
-@import "colors";
-@import "typography";
-@import "global";
+@import 'reset';
+@import 'colors';
+@import 'typography';
+@import 'global';
 
 //header
 
 header {
-
   .mainLogo {
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
     padding: 24px 0px 0px 0px;
     &:hover {
       text-decoration: none;
@@ -20,52 +19,51 @@ header {
 
   .logo {
     width: 100px;
-    height:auto;
+    height: auto;
   }
 
   .subtitle {
-    font-size:1em;
-    @media(max-width:568px){
-      font-size:0.8em;
+    font-size: 1em;
+    @media (max-width: 568px) {
+      font-size: 0.8em;
       font-size: 12px;
     }
   }
 
-//nav
+  //nav
   nav {
     position: absolute;
-    z-index:99;
-    right:0px;
+    z-index: 99;
+    right: 0px;
     padding-top: 24px;
     a {
       padding: 0px 12px;
       color: black;
 
       &:hover {
-        color:$green;
+        color: $green;
         font-style: italic;
       }
-
     }
   }
 }
 
-.links{
+.links {
   position: relative;
-  float:right;
+  float: right;
   text-align: right;
 }
 
-.navList{
+.navList {
   text-align: right;
 }
 .navList li {
   list-style: none;
-  font-size:1.5em;
-  padding-bottom:10px;
-  @media(max-width:568px){
-    font-size:0.9em;
-    padding-bottom:10px;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  @media (max-width: 568px) {
+    font-size: 0.9em;
+    padding-bottom: 10px;
     margin: -15px 0px;
   }
 }
@@ -73,23 +71,31 @@ header {
   text-decoration: none;
 }
 
-.navList_sub{
+.navList_sub {
   text-align: right;
 }
 .navList_sub li {
   list-style: none;
-  font-size:1.5em;
-  padding-bottom:5px;
-  color:$green;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  color: $green;
   font-style: italic;
-  @media(max-width:568px){
-    font-size:0.9em;
-    padding-bottom:5px;
+  @media (max-width: 568px) {
+    font-size: 0.9em;
+    padding-bottom: 5px;
     margin: -15px 0px;
   }
 }
 .navList_sub a {
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .event-info {
+    h6 {
+      font-size: 1rem;
+    }
+  }
 }
 
 .specs {
@@ -98,29 +104,32 @@ header {
     margin-bottom: 24px;
 
     h4 {
-      font-family: "FoundersGroteskMono", courier, monospace;
-      }
+      font-family: 'FoundersGroteskMono', courier, monospace;
     }
   }
+}
 
+.quote {
+  margin: auto;
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    font-family: 'FoundersGroteskMono', courier, monospace;
+  }
+  h5 {
+    font-size: 16px;
+    text-align: right;
+    font-family: 'FoundersGroteskMono', courier, monospace;
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1024px) {
   .quote {
-    margin: auto;
     padding: 0px 85px;
-    h4 {
-      font-size: 24px;
-      line-height: 32px;
-      text-align: center;
-      font-family: "FoundersGroteskMono", courier, monospace;
-      }
-    h5 {
-      font-size: 16px;
-      text-align: right;
-      font-family: "FoundersGroteskMono", courier,monospace;
-      display: inline-block;
-      }
-    }
-
-
+  }
+}
 //Speaker
 .speaker {
   display: flex;
@@ -128,48 +137,44 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
 
-
   .meta {
-  padding-bottom: 24px;
-  width:150px;
-  text-align: center;
-  @media(max-width:125px){
-    font-size:12px;
-  }
-  }
-
-  .imgWrap {
-    margin:auto;
+    padding-bottom: 24px;
+    width: 150px;
+	text-align: center;
+	align-self: center;
+    @media (max-width: 125px) {
+      font-size: 12px;
+    }
   }
 
   img.avatar {
     height: 150px;
     width: 150px;
-    border-radius:50%;
-    @media(max-width:568px){
+    border-radius: 50%;
+    @media (max-width: 568px) {
       height: 75px;
       width: 75px;
     }
   }
 }
 
-.applyBtn{
+.applyBtn {
   text-align: right;
   padding: 24px 0px 0px 120px;
-  @media(max-width: 568px){
+  @media (max-width: 568px) {
     text-align: center;
-    margin-top:15px;
+    margin-top: 15px;
   }
 }
 
 //Coordinators section
 .sponsorItem {
-  margin:auto;
+  margin: auto;
   img.logo {
     justify-content: space-between;
     height: 150px;
     width: auto;
-    @media(max-width:568px){
+    @media (max-width: 568px) {
       height: auto;
       width: 125px;
     }
@@ -200,7 +205,6 @@ header {
     }
 
     li {
-
       list-style: none;
       padding: 0px 32px 0px 64px;
 
