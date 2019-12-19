@@ -350,10 +350,33 @@ function Header() {
       lineNumber: 84
     },
     __self: this
-  }), __jsx("br", {
+  }), __jsx("div", {
+    className: "row col justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "subscribe button",
+    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "Sign up to attend!")), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
     },
     __self: this
   }));
@@ -12390,7 +12413,7 @@ function Index() {
     },
     __self: this
   }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
-    href: "https://gitcoin.co/hackathon/onboard/sustain-web3/",
+    href: "https://hackathons.gitcoin.co/sustain-web3/",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
