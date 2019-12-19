@@ -7,8 +7,8 @@ export default function Footer() {
       <br />
       <br/>
       <br/>
-      <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
-        Signup here!
+      <a className="button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">
+        Sign up to attend!
       </a>
       <br />
       <br />

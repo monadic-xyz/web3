@@ -44,7 +44,7 @@ function Footer() {
     },
     __self: this
   }), __jsx("a", {
-    className: "subscribe button",
+    className: "button",
     href: "https://gitcoin.typeform.com/to/TlO4BH",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -53,7 +53,7 @@ function Footer() {
       lineNumber: 10
     },
     __self: this
-  }, "Signup here!"), __jsx("br", {
+  }, "Sign up to attend!"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -132,103 +132,254 @@ function Header() {
       lineNumber: 10
     },
     __self: this
-  }, __jsx("link", {
-    rel: "stylesheet",
-    href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
+  }, __jsx("meta", {
+    name: "twitter:card",
+    content: "summary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
+  }), __jsx("meta", {
+    name: "twitter:site",
+    content: "@SustainOSS",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp"), __jsx("meta", {
+    name: "twitter:title",
+    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:description",
+    content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "twitter:image",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:url",
+    content: "https://web3.sustainoss.org",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:type",
+    content: "website",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:title",
+    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:description",
+    content: "we are the architects, builders, designers, researchers building the Open Source web3. we believe that blockchain is a new hope for OSS Sustainability. we are working to build a world",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), __jsx("meta", {
+    property: "og:image",
+    content: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "shortcut icon",
+    href: "/static/favicon.ico",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "stylesheet",
+    href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
   })), __jsx("div", {
     style: {
-      margin: "auto",
-      width: "100%"
+      margin: 'auto',
+      width: '100%'
     },
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 50
     },
     __self: this
   }, __jsx("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 54
     },
     __self: this
   }, __jsx(_components_Nav__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 55
     },
     __self: this
   }))), __jsx("div", {
     style: {
-      margin: "auto",
-      width: "65%",
-      position: "relative",
-      right: "15px"
+      margin: 'auto',
+      width: '65%',
+      position: 'relative',
+      right: '15px'
     },
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 58
     },
     __self: this
   }, __jsx("div", {
-    className: "col",
+    className: "col mt-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 67
     },
     __self: this
   }, __jsx(_components_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], {
     logoUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 68
     },
     __self: this
   }))), __jsx("div", {
-    style: {
-      margin: "auto",
-      width: "100%"
-    },
-    className: "row justify-content-around justify-content-center",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 72
     },
     __self: this
   }, __jsx("div", {
-    className: "subtitle col-5 offset-1",
+    className: "row text-center event-info",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 73
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 mt-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 75
     },
     __self: this
-  }, " \uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
-    className: "subtitle col-5",
+  }, "\uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
+    className: "col-xs-12 col-sm-12 col-md-6 mt-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 77
     },
     __self: this
   }, __jsx("h6", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 78
     },
     __self: this
-  }, " \uD83D\uDCC6 Feburary 13th, 2020"))));
+  }, "\uD83D\uDCC6 February 13th, 2020"), __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "(The day before ", __jsx("a", {
+    href: "https://www.ethdenver.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  }, "ETHDenver"), ")")))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "row col justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "subscribe button",
+    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "Sign up to attend!")), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }));
 }
 
 /***/ }),
@@ -618,17 +769,17 @@ var Speaker = function Speaker(_ref) {
       companyUrl = _ref.companyUrl,
       picUrl = _ref.picUrl;
   return __jsx("div", {
-    className: "col-3 speaker",
+    className: "col-xs-3 col-sm-4 col-md-4 col-lg-3 speaker",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, __jsx("div", {
+  }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
     className: "imgWrap",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx("img", {
@@ -637,48 +788,48 @@ var Speaker = function Speaker(_ref) {
     alt: "pic",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   })), __jsx("div", {
     className: "meta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, name), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }), __jsx("i", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: companyUrl,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 15
     },
     __self: this
-  }, company)))));
+  }, company))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Speaker);
@@ -836,7 +987,7 @@ var Nav = function Nav() {
       lineNumber: 17
     },
     __self: this
-  }, "Apply"))));
+  }, "Attend!"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
@@ -11758,199 +11909,237 @@ function Index() {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 16
     },
     __self: this
   }, __jsx(_layouts_page__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 17
     },
     __self: this
   }, __jsx("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 18
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 20
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 21
     },
     __self: this
   }, __jsx("div", {
     className: "col-12",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 22
     },
     __self: this
   }, __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 23
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 24
     },
     __self: this
   }), __jsx("div", {
     className: "quote",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 25
     },
     __self: this
   }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 26
     },
     __self: this
   }, __jsx("span", {
     style: {
-      display: "inline-block",
-      transform: "scaleX(-1)"
+      display: 'inline-block',
+      transform: 'scaleX(-1)'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 27
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["QuoteIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 30
     },
     __self: this
   })), "\xA0Our modern society \u2014 everything from hospitals to stock markets to newspapers to social media \u2014 runs on software. But take a closer look, and you\u2019ll find that the tools we use to build software are buckling under demand.\xA0", __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["QuoteIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 36
     },
     __self: this
   })), __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 38
     },
     __self: this
-  }, " - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure")), __jsx("br", {
+  }, " - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure ")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 40
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 41
     },
     __self: this
   }, "As we start envisioning a \"Web3\", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope\u2122 for free and open source software.", __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 41
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 41
     },
     __self: this
-  }), "Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability \u2728."), __jsx("br", {
+  }), "Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability \u2728."), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 42
+    },
+    __self: this
+  }, "This event is ", __jsx("em", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "free to attend"), " with a \"pay-what-you-can\" donation model. The goal is to stick to traditional FOSS values and fund this event by and for the community. We'll be collecting donations through a ", __jsx("a", {
+    href: "https://gitcoin.co/grants/195/sustain-web3-sustainers",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Gitcoin Grant"), ". Because of ", __jsx("a", {
+    href: "https://gitcoin.co/blog/gitcoin-grants-2020/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "Quadratic matching"), " on the Gitcoin platform, even small contributions could go a long way."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "\u2192 Can't attend but interested in sponsoring SustainWeb3? Get in touch ", __jsx("a", {
+    href: "https://gitcoin.co/grants/195/sustain-web3-sustainers",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "here"), "."), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
     },
     __self: this
   }))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 47
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 48
     },
     __self: this
   }), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 49
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 50
     },
     __self: this
   }), __jsx("h6", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 51
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SpeakersIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 52
     },
     __self: this
   }), " Speakers"), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 54
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 55
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 56
     },
     __self: this
   }, __jsx("div", {
     className: "row align-items-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "speaker",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 57
     },
     __self: this
   }, __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -11960,7 +12149,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1568990825/VsABh_tY_400x400_hwcjd4.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 58
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -11970,7 +12159,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978850/1400023_bvk5yt.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 64
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -11980,7 +12169,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 70
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -11990,24 +12179,17 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 76
     },
     __self: this
-  })), __jsx("div", {
-    className: "speaker",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: "Lane Rettig",
     company: "Space Mesh",
     companyUrl: "https://spacemesh.io/",
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 82
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12017,7 +12199,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/nathanheadshot_eawgvk.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 88
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12027,7 +12209,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 94
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12037,77 +12219,84 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 100
     },
     __self: this
-  })))), __jsx("br", {
+  }))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 108
     },
     __self: this
   }), __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 110
     },
     __self: this
   }, __jsx("i", {
     style: {
-      fontSize: "14px"
+      fontSize: '14px'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 111
     },
     __self: this
   }, "Read full agenda ", __jsx("a", {
     href: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 112
     },
     __self: this
   }, "here"), ".")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 115
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 116
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 117
     },
     __self: this
   }, __jsx("i", {
     style: {
-      fontSize: "14px"
+      fontSize: '14px'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 118
     },
     __self: this
   }, "Have something to say about open source sustainability in Web3?")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 122
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 123
     },
     __self: this
   }, __jsx("a", {
@@ -12117,64 +12306,64 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 124
     },
     __self: this
   }, "Apply to speak \u2728")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 133
+    },
+    __self: this
+  })), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 136
     },
     __self: this
   }), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 137
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 138
     },
     __self: this
   }, __jsx("h3", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 139
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 140
     },
     __self: this
   }), " Coordinators")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 143
     },
     __self: this
   }), __jsx("div", {
-    className: "row justify-content-center",
+    className: "row justify-content-around",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 144
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12183,7 +12372,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 145
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12192,7 +12381,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 150
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12201,10 +12390,38 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 155
     },
     __self: this
-  })))));
+  }))), __jsx("div", {
+    className: "justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 163
+    },
+    __self: this
+  }, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 164
+    },
+    __self: this
+  }), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
+    href: "https://hackathons.gitcoin.co/sustain-web3/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, "two week virtual hackathon"), " leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3."))));
 }
 
 /***/ }),

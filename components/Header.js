@@ -87,8 +87,6 @@ export default function Header() {
       </div>
       <br />
       <br />
-
-
     </header>
   )
 }
