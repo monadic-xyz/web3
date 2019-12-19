@@ -22,7 +22,7 @@ export default function Header() {
 
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png"
+          content="/SW3_sngkyk.png"
         />
 
         <meta property="og:url" content="https://web3.sustainoss.org" />
@@ -38,7 +38,7 @@ export default function Header() {
 
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.png"
+          content="/SW3_sngkyk.png"
         />
 
         <link rel="shortcut icon" href="/static/favicon.ico" />
@@ -65,7 +65,7 @@ export default function Header() {
         className="row"
       >
         <div className="col mt-4">
-          <Logo logoUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575999063/SW3_sngkyk.svg" />
+          <Logo logoUrl="/SW3_sngkyk.svg" />
         </div>
       </div>
 
@@ -80,15 +80,13 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <div className="row col justify-content-center">
         <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
       </div>
       <br />
-      <br/>
-      
-
+      <br />
     </header>
   )
 }
