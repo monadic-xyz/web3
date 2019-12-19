@@ -138,17 +138,6 @@ export default function Index() {
         <p>In addition to SustainWeb3, Gitcoin will hosting a <a href="https://gitcoin.co/hackathon/onboard/sustain-web3/" target="_blank" rel="noopener noreferrer">two week virtual hackathon</a> leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3.</p>
         </div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75483608-2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-75483608-2');
-        </script>
-
-
       </Page>
     </div>
   )
