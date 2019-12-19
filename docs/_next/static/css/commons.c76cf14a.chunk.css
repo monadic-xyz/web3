@@ -446,25 +446,32 @@ header nav {
 .navList_sub a {
   text-decoration: none; }
 
+@media (max-width: 1024px) {
+  .event-info h6 {
+    font-size: 1rem; } }
+
 .specs li {
   list-style: none;
   margin-bottom: 24px; }
   .specs li h4 {
-    font-family: "FoundersGroteskMono", courier, monospace; }
+    font-family: 'FoundersGroteskMono', courier, monospace; }
 
 .quote {
-  margin: auto;
-  padding: 0px 85px; }
+  margin: auto; }
   .quote h4 {
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    font-family: "FoundersGroteskMono", courier, monospace; }
+    font-family: 'FoundersGroteskMono', courier, monospace; }
   .quote h5 {
     font-size: 16px;
     text-align: right;
-    font-family: "FoundersGroteskMono", courier,monospace;
+    font-family: 'FoundersGroteskMono', courier, monospace;
     display: inline-block; }
+
+@media (min-width: 1024px) {
+  .quote {
+    padding: 0px 85px; } }
 
 .speaker {
   display: flex;
@@ -474,12 +481,11 @@ header nav {
   .speaker .meta {
     padding-bottom: 24px;
     width: 150px;
-    text-align: center; }
+    text-align: center;
+    align-self: center; }
     @media (max-width: 125px) {
       .speaker .meta {
         font-size: 12px; } }
-  .speaker .imgWrap {
-    margin: auto; }
   .speaker img.avatar {
     height: 150px;
     width: 150px;
