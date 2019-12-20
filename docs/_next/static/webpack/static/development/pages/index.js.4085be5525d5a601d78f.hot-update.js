@@ -233,7 +233,7 @@ function Header() {
       lineNumber: 78
     },
     __self: this
-  }, "\uD83D\uDCC6 Feburary 13th, 2020"), __jsx("span", {
+  }, "\uD83D\uDCC6 February 13th, 2020"), __jsx("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
