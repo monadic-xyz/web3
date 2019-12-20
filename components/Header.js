@@ -75,7 +75,7 @@ export default function Header() {
             <h6>📍 Boulder, Colorado</h6>
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 mt-3">
-            <h6>📆 Feburary 13th, 2020</h6>
+            <h6>📆 February 13th, 2020</h6>
             <span>(The day before <a href="https://www.ethdenver.com/">ETHDenver</a>)</span>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function Header() {
       </div>
       <br />
       <br/>
-      
+
 
     </header>
   )
