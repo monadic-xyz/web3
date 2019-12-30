@@ -12242,7 +12242,7 @@ function Index() {
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: "Jim Jagielski",
-    company: "ConsenSys / Apache Foundation",
+    company: "Consensys / Apache Foundation",
     companyUrl: "https://codefund.io/",
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg",
     __source: {
@@ -12320,7 +12320,7 @@ function Index() {
     },
     __self: this
   }, "Read full agenda ", __jsx("a", {
-    href: "",
+    href: "schedule",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 143
@@ -12494,7 +12494,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -12517,5 +12517,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
