@@ -33,6 +33,17 @@ const Table = () => (
       description='A look back at the history of the 1st 20 years of open source, and a peek at the next 20 by one of the leaders of the open source movement'
     />
 
+    <Row
+      name='"Open Source Means Everybody So Start Acting Like It"'
+      author='Jarrell James - Manesh Giday'
+      description='If open source the right way forward, then why is it primarily utilized, contributed to and maintained by developed nations. Where is open source development for mobile clients? Why is open source development constrained to desktop and laptop computers. Let’s cut the shit, and build with everybody.'
+    />
+
+    <Row
+      name='"A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability"'
+      author='Simona Pop'
+      description='The sustainability of complex ecosystems in nature depends on diversity and interconnectivity as the two structural pillars responsible for balance. A look at the role of complementary currencies within communities and their impact on thriving.'
+    />
   </div>
 )
 

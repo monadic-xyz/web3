@@ -68,22 +68,10 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978850/1400023_bvk5yt.jpg"
               />
               <Speaker
-                name="Eric Berry"
-                company="CodeFund"
-                companyUrl="https://codefund.io/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
-              />
-              <Speaker
-                name="Abbey Titcomb"
-                company="Radicle"
-                companyUrl="http://radicle.xyz/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
-              />
-              <Speaker
-                name="Lane Rettig"
-                company="Space Mesh"
-                companyUrl="https://spacemesh.io/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg"
+                name="Simona Pop"
+                company="Bounties Network"
+                companyUrl="https://www.bounties.network/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576856033/Simona_2_djqtlu.jpg"
               />
               <Speaker
                 name="Nathan Schneider"
@@ -92,16 +80,59 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/nathanheadshot_eawgvk.jpg"
               />
               <Speaker
-                name="Jim Jagielski"
-                company="ConsenSys"
-                companyUrl="https://codefund.io/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
+                name="Abbey Titcomb"
+                company="Radicle"
+                companyUrl="http://radicle.xyz/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
+              />
+              <Speaker
+                name="Josh Cincinnati"
+                company="Zcash Foundation"
+                companyUrl="https://www.zfnd.org/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854839/profile1_k276zl.jpg"
+              />
+              <Speaker
+                name="Jarrell James - Manesh Giday"
+                company="Cross-Chain Group"
+                companyUrl="https://www.crosschain.group/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576856652/BC3AB8ED_711C_4B08_94F6_45807DB7D879_t9i1ga.jpg"
               />
               <Speaker
                 name="Kevin Owocki"
                 company="Gitcoin"
                 companyUrl="https://gitcoin.co"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg"
+              />
+              <Speaker
+                name="Jim Jagielski"
+                company="ConsenSys / Apache Foundation"
+                companyUrl="https://codefund.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
+              />
+              <Speaker
+                name="Eric Berry"
+                company="CodeFund"
+                companyUrl="https://codefund.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
+              />
+              <Speaker
+                name="Gabrielle Micheletti"
+                company="Consensys Grants"
+                companyUrl="https://consensys.net/grants/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854864/headshot_fsnamc.jpg"
+              />
+              <Speaker
+                name="Griff Green"
+                company="Commons Stack"
+                companyUrl="http://www.commonsstack.org/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854843/Profile_pic_griff_headshot_ycayri.png"
+              />
+
+              <Speaker
+                name="Lane Rettig"
+                company="Space Mesh"
+                companyUrl="https://spacemesh.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg"
               />
             </div>
           </div>
