@@ -105,7 +105,7 @@ export default function Index() {
               />
               <Speaker
                 name="Jim Jagielski"
-                company="ConsenSys / Apache Foundation"
+                company="Consensys / Apache Foundation"
                 companyUrl="https://codefund.io/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
               />
@@ -140,7 +140,7 @@ export default function Index() {
           <div className="container">
             <div className="row justify-content-center">
               <i style={{ fontSize: '14px' }}>
-                Read full agenda <a href="">here</a>.
+                Read full agenda <a href="schedule">here</a>.
               </i>
             </div>
             <br />
