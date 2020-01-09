@@ -331,7 +331,7 @@ function Header() {
       lineNumber: 79
     },
     __self: this
-  }, "   (at the same venue as ", __jsx("a", {
+  }, "(at the same venue as ", __jsx("a", {
     href: "https://www.ethdenver.com/",
     __source: {
       fileName: _jsxFileName,
@@ -359,7 +359,7 @@ function Header() {
     __self: this
   }, __jsx("a", {
     className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/pkjlfI",
+    href: "https://gitcoin.typeform.com/to/TlO4BH",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
