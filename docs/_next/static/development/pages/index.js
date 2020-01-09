@@ -154,9 +154,9 @@ function Header() {
       lineNumber: 13
     },
     __self: this
-  }, "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp"), __jsx("meta", {
+  }, "Sustain Web3 : 2/13/20 in Denver :: Checkout our LineUp"), __jsx("meta", {
     name: "twitter:title",
-    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    content: "Sustain Web3 : 2/13/20 in Denver :: Checkout our LineUp",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -196,7 +196,7 @@ function Header() {
     __self: this
   }), __jsx("meta", {
     property: "og:title",
-    content: "Sustain Web3 : 2/13/20 in Boulder :: Checkout our LineUp",
+    content: "Sustain Web3 : 2/13/20 in Denver :: Checkout our LineUp",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
@@ -312,7 +312,7 @@ function Header() {
       lineNumber: 75
     },
     __self: this
-  }, "\uD83D\uDCCD Boulder, Colorado")), __jsx("div", {
+  }, "\uD83D\uDCCD Denver, Colorado")), __jsx("div", {
     className: "col-xs-12 col-sm-12 col-md-6 mt-3",
     __source: {
       fileName: _jsxFileName,
@@ -331,7 +331,7 @@ function Header() {
       lineNumber: 79
     },
     __self: this
-  }, "(The day before ", __jsx("a", {
+  }, "   (at the same venue as ", __jsx("a", {
     href: "https://www.ethdenver.com/",
     __source: {
       fileName: _jsxFileName,
