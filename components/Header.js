@@ -76,14 +76,14 @@ export default function Header() {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-6 mt-3">
             <h6>📆 February 13th, 2020</h6>
-            <span>   (at the same venue as <a href="https://www.ethdenver.com/">ETHDenver</a>)</span>
+            <span>(at the same venue as <a href="https://www.ethdenver.com/">ETHDenver</a>)</span>
           </div>
         </div>
       </div>
       <br/>
       <br/>
       <div className="row col justify-content-center">
-        <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
+        <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
       </div>
       <br />
       <br/>
