@@ -80,10 +80,10 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/nathanheadshot_eawgvk.jpg"
               />
               <Speaker
-                name="Abbey Titcomb"
-                company="Radicle"
-                companyUrl="http://radicle.xyz/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
+                name="Vitalik Buterin"
+                company="Ethereum Foundation"
+                companyUrl="https://ethereum.org/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1579107738/image-4-250x250_zbtacu.png"
               />
               <Speaker
                 name="Josh Cincinnati"
@@ -116,11 +116,12 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg"
               />
               <Speaker
-                name="Gabrielle Micheletti"
-                company="Consensys Grants"
-                companyUrl="https://consensys.net/grants/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854864/headshot_fsnamc.jpg"
+                name="Abbey Titcomb"
+                company="Radicle"
+                companyUrl="http://radicle.xyz/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg"
               />
+
               <Speaker
                 name="Griff Green"
                 company="Commons Stack"
@@ -133,6 +134,12 @@ export default function Index() {
                 company="Space Mesh"
                 companyUrl="https://spacemesh.io/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg"
+              />
+              <Speaker
+                name="Gabrielle Micheletti"
+                company="Consensys Grants"
+                companyUrl="https://consensys.net/grants/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854864/headshot_fsnamc.jpg"
               />
             </div>
           </div>
