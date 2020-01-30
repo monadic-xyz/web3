@@ -193,7 +193,7 @@ header {
   .title,
   .row {
     display: grid;
-    grid-template-columns: 5fr 6fr;
+    grid-template-columns: 1fr 3fr 3fr;
     grid-column-gap: 12px;
     padding: 0px 24px 24px 24px;
 
@@ -203,14 +203,18 @@ header {
       grid-template-rows: 1fr 1fr 1fr;
       padding-bottom: 24px;
     }
-
+    .column {
+      display: grid;
+      @media (max-width: 800px) {
+      }
+    }
     li {
       list-style: none;
-      padding: 0px 32px 0px 64px;
+      padding: 0px 32px 0px 0px;
 
       &:first-child {
         font-weight: bold;
-        text-align: left;
+        text-align: right;
       }
 
       &:nth-child(3n) {
@@ -228,7 +232,79 @@ header {
       }
     }
   }
-}
+
+  .row_header {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-column-gap: 12px;
+    padding: 0px 24px 24px 24px;
+
+    li {
+      list-style: none;
+      padding: 0px 32px 0px 0px;
+      font-size: 24px;
+
+      &:first-child {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      &:nth-child(2n) {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      @media (max-width: 800px) {
+        &:nth-child(2n) {
+          font-weight: bold;
+          text-align: left;
+        }
+
+        &:not(:first-child) {
+          font-weight: bold;
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+      .row_full {
+        display: grid;
+        grid-template-columns: 1fr 3fr 3fr;
+        grid-column-gap: 12px;
+        padding: 0px 24px 24px 24px;
+
+        @media (max-width: 800px) {
+          grid-template-columns: 1fr;
+          grid-column-gap: 24px;
+          grid-template-rows: 1fr 1fr 1fr;
+          padding-bottom: 24px;
+        }
+
+        li {
+          list-style: none;
+          padding: 0px 32px 0px 0px;
+
+          &:first-child {
+            font-weight: bold;
+            text-align: right;
+          }
+
+          &:nth-child(2n) {
+            text-align: left;
+          }
+
+          @media (max-width: 800px) {
+            &:nth-child(2n) {
+              text-align: left;
+            }
+
+            &:not(:first-child) {
+              padding-left: 12px;
+            }
+          }
+        }
+      }
+  }
 
 //UPDATES
 .updates {
