@@ -12216,7 +12216,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js ***!
   \***************************************************************************************************************************************************************/
@@ -12239,5 +12239,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=schedule.js.map

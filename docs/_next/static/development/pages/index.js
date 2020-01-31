@@ -12665,21 +12665,21 @@ function Index() {
     __self: this
   }, __jsx("i", {
     style: {
-      fontSize: '14px'
+      fontSize: '18px'
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 216
     },
     __self: this
-  }, "Read full agenda ", __jsx("a", {
+  }, "Check out the full agenda ", __jsx("a", {
     href: "schedule",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 217
     },
     __self: this
-  }, "here"), ".")), __jsx("br", {
+  }, "here"), " \u2728")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 220
@@ -12691,100 +12691,49 @@ function Index() {
       lineNumber: 221
     },
     __self: this
-  }), __jsx("div", {
-    className: "row justify-content-center",
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 222
     },
     __self: this
-  }, __jsx("i", {
-    style: {
-      fontSize: '14px'
-    },
+  })), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223
-    },
-    __self: this
-  }, "Have something to say about open source sustainability in Web3?")), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "row justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 228
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/pkjlfI",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 229
-    },
-    __self: this
-  }, "Apply to speak \u2728")), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 233
-    },
-    __self: this
-  })), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 235
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 236
-    },
-    __self: this
-  }), __jsx("hr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 237
+      lineNumber: 224
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238
+      lineNumber: 225
     },
     __self: this
   }, __jsx("h3", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239
+      lineNumber: 226
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 227
     },
     __self: this
   }), " Coordinators")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243
+      lineNumber: 230
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-around",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 231
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12793,7 +12742,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245
+      lineNumber: 232
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12802,7 +12751,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 250
+      lineNumber: 237
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12811,26 +12760,26 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255
+      lineNumber: 242
     },
     __self: this
   }))), __jsx("div", {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263
+      lineNumber: 250
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 251
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 252
     },
     __self: this
   }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
@@ -12839,7 +12788,7 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 252
     },
     __self: this
   }, "two week virtual hackathon"), " leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3."))));
@@ -12847,7 +12796,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -12870,5 +12819,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
