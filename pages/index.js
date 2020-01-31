@@ -54,9 +54,10 @@ export default function Index() {
           <br />
           <br />
           <div className="container">
+            <a id="speakers"> </a>
             <div className="row align-items-start">
               <Speaker
-                name="Eleftherios"
+                name="Eleftherios Diakomichalis"
                 company="Radicle"
                 companyUrl="https://radicle.xyz/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1568990825/VsABh_tY_400x400_hwcjd4.jpg"
@@ -128,7 +129,37 @@ export default function Index() {
                 companyUrl="http://www.commonsstack.org/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854843/Profile_pic_griff_headshot_ycayri.png"
               />
+              <Speaker
+                name="Makoto Inoue"
+                company="Kickback"
+                companyUrl="https://kickback.events/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580460858/makoto_i0jyqa.jpg"
+                />
 
+              <Speaker
+                name="Hudson Jameson"
+                company="Ethereum Foundation"
+                companyUrl="https://ethereum.org/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580460859/headshot_large_ompv7x.jpg"
+              />
+              <Speaker
+                name="Karl Floersch"
+                company="Optimism"
+                companyUrl="https://optimism.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580460879/KarlFloersch_ohitjk.jpg"
+              />
+              <Speaker
+                name="Niran Babalola"
+                company="Panvala"
+                companyUrl="https://panvala.com/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580460867/twitter_profile_photo_mbftrk.jpg"
+              />
+              <Speaker
+                name="Aidan Hyman"
+                company="ChainSafe Systems"
+                companyUrl="https://github.com/chainsafesystems"
+                picUrl="https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462851/QWlkYW4yX3R4dnE4aw==/drilldown"
+              />
               <Speaker
                 name="Lane Rettig"
                 company="Space Mesh"
@@ -136,11 +167,47 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg"
               />
               <Speaker
-                name="Gabrielle Micheletti"
-                company="Consensys Grants"
-                companyUrl="https://consensys.net/grants/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854864/headshot_fsnamc.jpg"
+                name="Joe Petrowski"
+                company="Parity Technologies"
+                companyUrl="https://www.parity.io/"
+                picUrl="https://ethcc.io/images/speakers_2020/Joe_Petrowski.png"
               />
+              <Speaker
+                name="Phil Lucsok"
+                company="Parity Technologies"
+                companyUrl="https://www.parity.io/"
+                picUrl="https://ethcc.io/images/speakers_2020/Phil_Lucsok.jpg"
+              />
+              <Speaker
+                name="Duane O'Brien"
+                company="Indeed.com"
+                companyUrl="https://www.indeed.com/"
+                picUrl="https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462683/TWNMZW5kb25fUGhvdG9ncmFwaHlfOTY5Nl9vbjZlbTI=/drilldown"
+              />
+              <Speaker
+                name="Vivek Singh"
+                company="Gitcoin"
+                companyUrl="https://gitcoin.co"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580461855/download_6_hlvp47.jpg"
+              />
+              <Speaker
+                name="James Waugh"
+                company="Axia Labs"
+                companyUrl="https://consensys.net/grants/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580461672/IMG_51019__1_2_uyjvzu.jpg"
+              />
+              <Speaker
+                name="James Duncan"
+                company="Abridged"
+                companyUrl="http://abridged.io/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580462789/00010039_usmlol.jpg"
+              />
+              <Speaker
+                name="Danny Zuckerman"
+                company="3box"
+                companyUrl="https://3box.io/"
+                picUrl="https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462959/cHJvZmlsZV9wcXNqeXg=/drilldown"
+                />
             </div>
           </div>
           <br />
@@ -159,12 +226,7 @@ export default function Index() {
             </div>
             <br />
             <div className="row justify-content-center">
-              <a
-                className="subscribe button"
-                href="https://gitcoin.typeform.com/to/pkjlfI"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
                 Apply to speak ✨
               </a>
             </div>
