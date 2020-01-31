@@ -191,6 +191,9 @@ header {
 .agenda {
   padding-top: 32px;
   .title,
+  .background {
+    font-weight: bold;
+  }
   .row {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr;
@@ -198,7 +201,7 @@ header {
     padding: 0px 24px 24px 24px;
 
     @media (max-width: 800px) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 3fr 3fr;
       grid-column-gap: 24px;
       grid-template-rows: 1fr 1fr 1fr;
       padding-bottom: 24px;
@@ -235,27 +238,46 @@ header {
 
   .row_header {
     display: grid;
-    grid-template-columns: 5fr 3fr;
+    grid-template-columns: 1fr 3fr 3fr;
     grid-column-gap: 12px;
-    padding: 0px 24px 24px 24px;
+    padding: 0px 12px 24px 12px;
 
+    @media (max-width: 800px) {
+      grid-template-columns: 1fr 3fr 3fr;
+      grid-column-gap: 12px;
+      grid-template-rows: 1fr 1fr 1fr;
+      padding-bottom: 24px;
+    }
     li {
       list-style: none;
       padding: 0px 32px 0px 0px;
       font-size: 24px;
 
+      @media (max-width:800px) {
+      font-size: 18px;
+      }
+
       &:first-child {
-        text-align: center;
+        text-align: left;
         font-weight: bold;
       }
 
       &:nth-child(2n) {
         font-weight: bold;
-        text-align: center;
+        text-align: left;
+      }
+
+      &:nth-child(3n) {
+        font-weight: bold;
+        text-align: left;
       }
 
       @media (max-width: 800px) {
         &:nth-child(2n) {
+          font-weight: bold;
+          text-align: left;
+        }
+        &:nth-child(3n) {
           font-weight: bold;
           text-align: left;
         }
@@ -267,44 +289,7 @@ header {
       }
     }
   }
-      .row_full {
-        display: grid;
-        grid-template-columns: 1fr 3fr 3fr;
-        grid-column-gap: 12px;
-        padding: 0px 24px 24px 24px;
-
-        @media (max-width: 800px) {
-          grid-template-columns: 1fr;
-          grid-column-gap: 24px;
-          grid-template-rows: 1fr 1fr 1fr;
-          padding-bottom: 24px;
-        }
-
-        li {
-          list-style: none;
-          padding: 0px 32px 0px 0px;
-
-          &:first-child {
-            font-weight: bold;
-            text-align: right;
-          }
-
-          &:nth-child(2n) {
-            text-align: left;
-          }
-
-          @media (max-width: 800px) {
-            &:nth-child(2n) {
-              text-align: left;
-            }
-
-            &:not(:first-child) {
-              padding-left: 12px;
-            }
-          }
-        }
-      }
-  }
+}
 
 //UPDATES
 .updates {

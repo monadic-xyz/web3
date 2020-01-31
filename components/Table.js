@@ -2,50 +2,46 @@ import PropTypes from 'prop-types'
 
 const Row = ({time, m_name, m_author, s_name, s_author, title}) => (
   <ul className="row">
-    <li>{time}<br  /></li>
-    <li>{m_name}<br  /><a href="/lecturers">{m_author}</a></li>
-    <li>{s_name}<br  /><a href="/lecturers">{s_author}</a></li>
+    <li>{time}</li>
+    <li>{m_name}<br  /><a href="/index#speakers">{m_author}</a></li>
+    <li>{s_name}<br  /><a href="/index#speakers">{s_author}</a></li>
+    <li>{title}</li>
   </ul>
 )
 
 const Header = ({sub1, sub2}) => (
     <ul className="row_header">
+      <li></li>
       <li>{sub1}<br  /></li>
       <li>{sub2}<br  /></li>
     </ul>
-)
-
-const Row_sub = ({time, title}) => (
-      <ul className="row_full">
-        <li>{time}<br  /></li>
-        <li>{title}<br  /></li>
-      </ul>
 )
 
 Row.propTypes = {
   time: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   author: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
+  title1: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
 }
 
 const Mainstage_Table = () => (
   <div className="agenda">
     <Header
-    sub1= 'MAIN STAGE'
-    sub2= 'CHILL SPACE'
+    sub1= 'FIRST STAGE'
+    sub2= 'SECOND STAGE'
     />
-    
+    <br />
+    <div className="background">
     <Row
-    time= '9:30'
+    time= '9:00'
     m_name='Arrival & Breakfast'
-    s_name='Arrival & Breakfast'
     />
     <Row
     time= '10:00'
     m_name='Welcome'
-    s_name='Welcome'
     />
+    </div>
     <Row
       time= '10:10'
       m_name='A New Hope for OSS Sustainability'
@@ -137,14 +133,15 @@ const Mainstage_Table = () => (
     />
     <Row
       time= '16:50'
-      m_name=' '
+      m_name='Closing Keynote'
       m_author='Vitalik Buterin'
     />
+    <div className = "background">
     <Row
       time= '17:20'
       m_name='CLOSING -> HAPPY HOUR'
-      s_name='CLOSING -> HAPPY HOUR'
     />
+    </div>
 </div>
   )
 
