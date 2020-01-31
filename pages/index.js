@@ -94,8 +94,8 @@ export default function Index() {
               />
               <Speaker
                 name="Jarrell James - Manesh Giday"
-                company="Cross-Chain Group"
-                companyUrl="https://www.crosschain.group/"
+                company="Abyssinia"
+                companyUrl=""
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576856652/BC3AB8ED_711C_4B08_94F6_45807DB7D879_t9i1ga.jpg"
               />
               <Speaker
@@ -103,12 +103,6 @@ export default function Index() {
                 company="Gitcoin"
                 companyUrl="https://gitcoin.co"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg"
-              />
-              <Speaker
-                name="Jim Jagielski"
-                company="Consensys / Apache Foundation"
-                companyUrl="https://codefund.io/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg"
               />
               <Speaker
                 name="Eric Berry"

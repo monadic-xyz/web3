@@ -49,8 +49,8 @@ const Mainstage_Table = () => (
     />
     <Row
       time= '10:40'
-      m_name='Traveler`s Tales: The 1st 20 Years Of Open Source'
-      m_author='Jim Jagielski'
+      m_name='TBD'
+      m_author='Duane O`Brien'
       s_name='Sustainably Building the Infrastructure for Web3'
       s_author='Aidan Hyman'
     />
@@ -65,22 +65,22 @@ const Mainstage_Table = () => (
       time= '11:40'
       m_name='A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability'
       m_author='Simona Pop'
-      s_name='TBD'
-      s_author='Duane O`Brien'
+      s_name='All Tech is Political'
+      s_author='Lane Rettig'
     />
     <Row
       time= '12:10'
       m_name='Why am I not funded?'
       m_author='Eric Berry'
-      s_name='All Tech is Political'
-      s_author='Lane Rettig'
+      s_name='Convincing the World to Cooperate with Incentivized DAOs'
+      s_author='Niran Babalola'
+
     />
     <Row
       time= '12:40'
       m_name='The Language of Sustainability'
       m_author='Phil Lucsok and Joe Petrowski'
-      s_name='Convincing the World to Cooperate with Incentivized DAOs'
-      s_author='Niran Babalola'
+
     />
 
     <Row
