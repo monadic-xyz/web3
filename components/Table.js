@@ -1,50 +1,148 @@
 import PropTypes from 'prop-types'
 
-const Row = ({name, author, description}) => (
+const Row = ({time, m_name, m_author, s_name, s_author, title}) => (
   <ul className="row">
-    <li>{name}<br  /><a href="/lecturers">{author}</a></li>
-    <li>{description}</li>
+    <li>{time}</li>
+    <li>{m_name}<br  /><a href="/index#speakers">{m_author}</a></li>
+    <li>{s_name}<br  /><a href="/index#speakers">{s_author}</a></li>
+    <li>{title}</li>
   </ul>
 )
 
-Row.propTypes = {
-  name: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-}
-
-const Table = () => (
-  <div className="agenda">
-    <Row
-      name='"A New Hope for OSS Sustainability"'
-      author='Kevin Owocki'
-      description='Blockchains are a new hope for OSS sustainability - In this talk, Gitcoin Founder Kevin Owocki will tell us why.'
-    />
-
-    <Row
-      name='"Startups need a new option: Exit to Community"'
-      author='Nathan Schneider'
-      description='When a startup company takes early investment, typically the expectation is that everyone is working toward one of two “exit” events: selling the company to a bigger company or selling to retail investors in an initial public offering. This talk explores strategies that could help create a new option for startups: Exit to Community (E2C) - transitioning investor ownership to ownership by the people who rely on it most---in the case of an online platform, its users.'
-    />
-
-    <Row
-      name='"Traveler`s Tales: The 1st 20 Years Of Open Source"'
-      author='Jim Jagielski'
-      description='A look back at the history of the 1st 20 years of open source, and a peek at the next 20 by one of the leaders of the open source movement'
-    />
-
-    <Row
-      name='"Open Source Means Everybody So Start Acting Like It"'
-      author='Jarrell James - Manesh Giday'
-      description='If open source the right way forward, then why is it primarily utilized, contributed to and maintained by developed nations. Where is open source development for mobile clients? Why is open source development constrained to desktop and laptop computers. Let’s cut the shit, and build with everybody.'
-    />
-
-    <Row
-      name='"A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability"'
-      author='Simona Pop'
-      description='The sustainability of complex ecosystems in nature depends on diversity and interconnectivity as the two structural pillars responsible for balance. A look at the role of complementary currencies within communities and their impact on thriving.'
-    />
-  </div>
+const Header = ({sub1, sub2}) => (
+    <ul className="row_header">
+      <li></li>
+      <li>{sub1}<br  /></li>
+      <li>{sub2}<br  /></li>
+    </ul>
 )
 
-export default Table
+Row.propTypes = {
+  time: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  title1: PropTypes.string.isRequired,
+  title2: PropTypes.string.isRequired,
+}
+
+const Mainstage_Table = () => (
+  <div className="agenda">
+    <Header
+    sub1= 'FIRST STAGE'
+    sub2= 'SECOND STAGE'
+    />
+    <br />
+    <div className="background">
+    <Row
+    time= '9:00'
+    m_name='Arrival & Breakfast'
+    />
+    <Row
+    time= '10:00'
+    m_name='Welcome'
+    />
+    </div>
+    <Row
+      time= '10:10'
+      m_name='A New Hope for OSS Sustainability'
+      m_author='Kevin Owocki'
+    />
+    <Row
+      time= '10:40'
+      m_name='Traveler`s Tales: The 1st 20 Years Of Open Source'
+      m_author='Jim Jagielski'
+      s_name='Sustainably Building the Infrastructure for Web3'
+      s_author='Aidan Hyman'
+    />
+    <Row
+      time= '11:10'
+      m_name='Open Source Means Everybody So Start Acting Like It'
+      m_author='Jarrell James - Manesh Giday'
+      s_name='DAOs + UX = Sustainability'
+      s_author='James Duncan'
+    />
+    <Row
+      time= '11:40'
+      m_name='A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability'
+      m_author='Simona Pop'
+      s_name='TBD'
+      s_author='Duane O`Brien'
+    />
+    <Row
+      time= '12:10'
+      m_name='Why am I not funded?'
+      m_author='Eric Berry'
+      s_name='All Tech is Political'
+      s_author='Lane Rettig'
+    />
+    <Row
+      time= '12:40'
+      m_name='The Language of Sustainability'
+      m_author='Phil Lucsok and Joe Petrowski'
+      s_name='Niran Babalola'
+      s_author='Convincing the World to Cooperate with Incentivized DAOs'
+    />
+
+    <Row
+      time= '13:10'
+      m_name='LUNCH'
+      s_name='LUNCH'
+    />
+
+    <Row
+      time= '13:40'
+      m_name='Cryptoeconomics and FOSS Sustainability'
+      m_author='Eleftherios Diakomichalis'
+      s_name='The Path to DAO Sustainability: Funding the Web3 Ecosystem '
+      s_author='James Waugh'
+    />
+    <Row
+      time= '14:20'
+      m_name='From Scalable to Sustainable Blockchains'
+      m_author='Karl Floersch'
+      s_name='The Economic Advantages of Web3: Technical Scalability, Social Scalability, and Economic Scalability'
+      s_author='Danny Zuckerman'
+    />
+    <Row
+      time= '14:50'
+      m_name='SourceCred Cryptoeconomics'
+      m_author='Dandelion Mane'
+      s_name='Open Source Full Monty - Can you go all the way?'
+      s_author='Makoto Inoue'
+
+    />
+    <Row
+      time= '15:20'
+      m_name='Zcash`s Dev Fund Process'
+      m_author='Josh Cincinnati'
+      s_name='Building Open Source Companies'
+      s_author='Vivek Singh'
+
+    />
+    <Row
+      time= '15:50'
+      m_name='Governance in Decentralized, Open Source Projects'
+      m_author='Hudson Jameson'
+      s_name='Commons Stack: A New Alternative for Funding Open Source'
+      s_author='Griff Green'
+    />
+    <Row
+      time= '16:20'
+      m_name='Startups need a new option: Exit to Community'
+      m_author='Nathan Schneider'
+    />
+    <Row
+      time= '16:50'
+      m_name='Closing Keynote'
+      m_author='Vitalik Buterin'
+    />
+    <div className = "background">
+    <Row
+      time= '17:20'
+      m_name='CLOSING -> HAPPY HOUR'
+    />
+    </div>
+</div>
+  )
+
+export default Mainstage_Table ;
