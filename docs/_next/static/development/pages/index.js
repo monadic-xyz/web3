@@ -1079,9 +1079,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Row = function Row(_ref) {
-  var name = _ref.name,
-      author = _ref.author,
-      description = _ref.description;
+  var time = _ref.time,
+      m_name = _ref.m_name,
+      m_author = _ref.m_author,
+      s_name = _ref.s_name,
+      s_author = _ref.s_author,
+      title = _ref.title;
   return __jsx("ul", {
     className: "row",
     __source: {
@@ -1095,91 +1098,314 @@ var Row = function Row(_ref) {
       lineNumber: 5
     },
     __self: this
-  }, name, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }), __jsx("a", {
-    href: "/lecturers",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, author)), __jsx("li", {
+  }, time), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, description));
+  }, m_name, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }), __jsx("a", {
+    href: "/index#speakers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, m_author)), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, s_name, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }), __jsx("a", {
+    href: "/index#speakers",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, s_author)), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, title));
+};
+
+var Header = function Header(_ref2) {
+  var sub1 = _ref2.sub1,
+      sub2 = _ref2.sub2;
+  return __jsx("ul", {
+    className: "row_header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, sub1, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, sub2, __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })));
 };
 
 Row.propTypes = {
+  time: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   author: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  description: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  title1: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  title2: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
 };
 
-var Table = function Table() {
+var Mainstage_Table = function Mainstage_Table() {
   return __jsx("div", {
     className: "agenda",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 29
     },
     __self: this
-  }, __jsx(Row, {
-    name: "\"A New Hope for OSS Sustainability\"",
-    author: "Kevin Owocki",
-    description: "Blockchains are a new hope for OSS sustainability - In this talk, Gitcoin Founder Kevin Owocki will tell us why.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }), __jsx(Row, {
-    name: "\"Startups need a new option: Exit to Community\"",
-    author: "Nathan Schneider",
-    description: "When a startup company takes early investment, typically the expectation is that everyone is working toward one of two \u201Cexit\u201D events: selling the company to a bigger company or selling to retail investors in an initial public offering. This talk explores strategies that could help create a new option for startups: Exit to Community (E2C) - transitioning investor ownership to ownership by the people who rely on it most---in the case of an online platform, its users.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }), __jsx(Row, {
-    name: "\"Traveler`s Tales: The 1st 20 Years Of Open Source\"",
-    author: "Jim Jagielski",
-    description: "A look back at the history of the 1st 20 years of open source, and a peek at the next 20 by one of the leaders of the open source movement",
+  }, __jsx(Header, {
+    sub1: "FIRST STAGE",
+    sub2: "SECOND STAGE",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }), __jsx(Row, {
-    name: "\"Open Source Means Everybody So Start Acting Like It\"",
-    author: "Jarrell James - Manesh Giday",
-    description: "If open source the right way forward, then why is it primarily utilized, contributed to and maintained by developed nations. Where is open source development for mobile clients? Why is open source development constrained to desktop and laptop computers. Let\u2019s cut the shit, and build with everybody.",
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "background",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx(Row, {
+    time: "9:00",
+    m_name: "Arrival & Breakfast",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
   }), __jsx(Row, {
-    name: "\"A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability\"",
-    author: "Simona Pop",
-    description: "The sustainability of complex ecosystems in nature depends on diversity and interconnectivity as the two structural pillars responsible for balance. A look at the role of complementary currencies within communities and their impact on thriving.",
+    time: "10:00",
+    m_name: "Welcome",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
-  }));
+  })), __jsx(Row, {
+    time: "10:10",
+    m_name: "A New Hope for OSS Sustainability",
+    m_author: "Kevin Owocki",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "10:40",
+    m_name: "Traveler`s Tales: The 1st 20 Years Of Open Source",
+    m_author: "Jim Jagielski",
+    s_name: "Sustainably Building the Infrastructure for Web3",
+    s_author: "Aidan Hyman",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "11:10",
+    m_name: "Open Source Means Everybody So Start Acting Like It",
+    m_author: "Jarrell James - Manesh Giday",
+    s_name: "DAOs + UX = Sustainability",
+    s_author: "James Duncan",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "11:40",
+    m_name: "A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability",
+    m_author: "Simona Pop",
+    s_name: "TBD",
+    s_author: "Duane O`Brien",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "12:10",
+    m_name: "Why am I not funded?",
+    m_author: "Eric Berry",
+    s_name: "All Tech is Political",
+    s_author: "Lane Rettig",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "12:40",
+    m_name: "The Language of Sustainability",
+    m_author: "Phil Lucsok and Joe Petrowski",
+    s_name: "Niran Babalola",
+    s_author: "Convincing the World to Cooperate with Incentivized DAOs",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "13:10",
+    m_name: "LUNCH",
+    s_name: "LUNCH",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "13:40",
+    m_name: "Cryptoeconomics and FOSS Sustainability",
+    m_author: "Eleftherios Diakomichalis",
+    s_name: "The Path to DAO Sustainability: Funding the Web3 Ecosystem ",
+    s_author: "James Waugh",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "14:20",
+    m_name: "From Scalable to Sustainable Blockchains",
+    m_author: "Karl Floersch",
+    s_name: "The Economic Advantages of Web3: Technical Scalability, Social Scalability, and Economic Scalability",
+    s_author: "Danny Zuckerman",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "14:50",
+    m_name: "SourceCred Cryptoeconomics",
+    m_author: "Dandelion Mane",
+    s_name: "Open Source Full Monty - Can you go all the way?",
+    s_author: "Makoto Inoue",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "15:20",
+    m_name: "Zcash`s Dev Fund Process",
+    m_author: "Josh Cincinnati",
+    s_name: "Building Open Source Companies",
+    s_author: "Vivek Singh",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "15:50",
+    m_name: "Governance in Decentralized, Open Source Projects",
+    m_author: "Hudson Jameson",
+    s_name: "Commons Stack: A New Alternative for Funding Open Source",
+    s_author: "Griff Green",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "16:20",
+    m_name: "Startups need a new option: Exit to Community",
+    m_author: "Nathan Schneider",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  }), __jsx(Row, {
+    time: "16:50",
+    m_name: "Closing Keynote",
+    m_author: "Vitalik Buterin",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "background",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, __jsx(Row, {
+    time: "17:20",
+    m_name: "CLOSING -> HAPPY HOUR",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  })));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Table);
+/* harmony default export */ __webpack_exports__["default"] = (Mainstage_Table);
 
 /***/ }),
 
@@ -12153,21 +12379,28 @@ function Index() {
       lineNumber: 56
     },
     __self: this
-  }, __jsx("div", {
-    className: "row align-items-start",
+  }, __jsx("a", {
+    id: "speakers",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 57
     },
     __self: this
+  }, " "), __jsx("div", {
+    className: "row align-items-start",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
   }, __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    name: "Eleftherios",
+    name: "Eleftherios Diakomichalis",
     company: "Radicle",
     companyUrl: "https://radicle.xyz/",
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1568990825/VsABh_tY_400x400_hwcjd4.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 59
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12177,7 +12410,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978850/1400023_bvk5yt.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12187,7 +12420,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1576856033/Simona_2_djqtlu.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 71
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12197,7 +12430,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/nathanheadshot_eawgvk.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 77
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12207,7 +12440,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1579107738/image-4-250x250_zbtacu.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 83
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12217,7 +12450,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1576854839/profile1_k276zl.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 89
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12227,7 +12460,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1576856652/BC3AB8ED_711C_4B08_94F6_45807DB7D879_t9i1ga.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 95
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12237,7 +12470,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575986003/photo_2019-12-10_14.49.00_axg3ez.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 101
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12247,7 +12480,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978736/jimheadshot_s3nucv.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 107
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12257,7 +12490,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1573135783/jn_XanJK_400x400_gr7kqe.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 113
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12267,7 +12500,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575981117/cropped_fiw5ny.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 119
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12277,7 +12510,57 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1576854843/Profile_pic_griff_headshot_ycayri.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 126
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Makoto Inoue",
+    company: "Kickback",
+    companyUrl: "https://kickback.events/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460858/makoto_i0jyqa.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Hudson Jameson",
+    company: "Ethereum Foundation",
+    companyUrl: "https://ethereum.org/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460859/headshot_large_ompv7x.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Karl Floersch",
+    company: "Optimism",
+    companyUrl: "https://optimism.io/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460879/KarlFloersch_ohitjk.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 145
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Niran Babalola",
+    company: "Panvala",
+    companyUrl: "https://panvala.com/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460867/twitter_profile_photo_mbftrk.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Aidan Hyman",
+    company: "ChainSafe Systems",
+    companyUrl: "https://github.com/chainsafesystems",
+    picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462851/QWlkYW4yX3R4dnE4aw==/drilldown",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12287,37 +12570,97 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 163
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    name: "Gabrielle Micheletti",
-    company: "Consensys Grants",
-    companyUrl: "https://consensys.net/grants/",
-    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1576854864/headshot_fsnamc.jpg",
+    name: "Joe Petrowski",
+    company: "Parity Technologies",
+    companyUrl: "https://www.parity.io/",
+    picUrl: "https://ethcc.io/images/speakers_2020/Joe_Petrowski.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 169
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Phil Lucsok",
+    company: "Parity Technologies",
+    companyUrl: "https://www.parity.io/",
+    picUrl: "https://ethcc.io/images/speakers_2020/Phil_Lucsok.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Duane O'Brien",
+    company: "Indeed.com",
+    companyUrl: "https://www.indeed.com/",
+    picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462683/TWNMZW5kb25fUGhvdG9ncmFwaHlfOTY5Nl9vbjZlbTI=/drilldown",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Vivek Singh",
+    company: "Gitcoin",
+    companyUrl: "https://gitcoin.co",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580461855/download_6_hlvp47.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 187
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "James Waugh",
+    company: "Axia Labs",
+    companyUrl: "https://consensys.net/grants/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580461672/IMG_51019__1_2_uyjvzu.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "James Duncan",
+    company: "Abridged",
+    companyUrl: "http://abridged.io/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580462789/00010039_usmlol.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Danny Zuckerman",
+    company: "3box",
+    companyUrl: "https://3box.io/",
+    picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462959/cHJvZmlsZV9wcXNqeXg=/drilldown",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205
     },
     __self: this
   }))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 213
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 214
     },
     __self: this
   }, __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 215
     },
     __self: this
   }, __jsx("i", {
@@ -12326,33 +12669,33 @@ function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 216
     },
     __self: this
   }, "Read full agenda ", __jsx("a", {
     href: "schedule",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 217
     },
     __self: this
   }, "here"), ".")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 220
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 221
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 222
     },
     __self: this
   }, __jsx("i", {
@@ -12361,20 +12704,20 @@ function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 223
     },
     __self: this
   }, "Have something to say about open source sustainability in Web3?")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 227
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 228
     },
     __self: this
   }, __jsx("a", {
@@ -12384,64 +12727,64 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 229
     },
     __self: this
   }, "Apply to speak \u2728")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 233
     },
     __self: this
   })), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 235
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 236
     },
     __self: this
   }), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 237
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 238
     },
     __self: this
   }, __jsx("h3", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 239
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 240
     },
     __self: this
   }), " Coordinators")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 243
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-around",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 244
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12450,7 +12793,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 183
+      lineNumber: 245
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12459,7 +12802,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 250
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12468,26 +12811,26 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 255
     },
     __self: this
   }))), __jsx("div", {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 263
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202
+      lineNumber: 264
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203
+      lineNumber: 265
     },
     __self: this
   }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
@@ -12496,7 +12839,7 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203
+      lineNumber: 265
     },
     __self: this
   }, "two week virtual hackathon"), " leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3."))));

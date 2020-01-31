@@ -521,35 +521,70 @@ header nav {
 .agenda {
   padding-top: 32px; }
   .agenda .title,
+  .agenda .background {
+    font-weight: bold; }
   .agenda .row {
     display: grid;
-    grid-template-columns: 5fr 6fr;
+    grid-template-columns: 1fr 3fr 3fr;
     grid-column-gap: 12px;
     padding: 0px 24px 24px 24px; }
     @media (max-width: 800px) {
-      .agenda .title,
       .agenda .row {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 3fr 3fr;
         grid-column-gap: 24px;
         grid-template-rows: 1fr 1fr 1fr;
         padding-bottom: 24px; } }
-    .agenda .title li,
+    .agenda .row .column {
+      display: grid; }
     .agenda .row li {
       list-style: none;
-      padding: 0px 32px 0px 64px; }
-      .agenda .title li:first-child,
+      padding: 0px 32px 0px 0px; }
       .agenda .row li:first-child {
         font-weight: bold;
-        text-align: left; }
-      .agenda .title li:nth-child(3n),
+        text-align: right; }
       .agenda .row li:nth-child(3n) {
         text-align: left; }
       @media (max-width: 800px) {
-        .agenda .title li:nth-child(3n),
         .agenda .row li:nth-child(3n) {
           text-align: left; }
-        .agenda .title li:not(:first-child),
         .agenda .row li:not(:first-child) {
+          padding-left: 12px; } }
+  .agenda .row_header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-column-gap: 12px;
+    padding: 0px 12px 24px 12px; }
+    @media (max-width: 800px) {
+      .agenda .row_header {
+        grid-template-columns: 1fr 3fr 3fr;
+        grid-column-gap: 12px;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding-bottom: 24px; } }
+    .agenda .row_header li {
+      list-style: none;
+      padding: 0px 32px 0px 0px;
+      font-size: 24px; }
+      @media (max-width: 800px) {
+        .agenda .row_header li {
+          font-size: 18px; } }
+      .agenda .row_header li:first-child {
+        text-align: left;
+        font-weight: bold; }
+      .agenda .row_header li:nth-child(2n) {
+        font-weight: bold;
+        text-align: left; }
+      .agenda .row_header li:nth-child(3n) {
+        font-weight: bold;
+        text-align: left; }
+      @media (max-width: 800px) {
+        .agenda .row_header li:nth-child(2n) {
+          font-weight: bold;
+          text-align: left; }
+        .agenda .row_header li:nth-child(3n) {
+          font-weight: bold;
+          text-align: left; }
+        .agenda .row_header li:not(:first-child) {
+          font-weight: bold;
           padding-left: 12px; } }
 
 .updates {
