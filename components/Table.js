@@ -79,8 +79,8 @@ const Mainstage_Table = () => (
       time= '12:40'
       m_name='The Language of Sustainability'
       m_author='Phil Lucsok and Joe Petrowski'
-      s_name='Niran Babalola'
-      s_author='Convincing the World to Cooperate with Incentivized DAOs'
+      s_name='Convincing the World to Cooperate with Incentivized DAOs'
+      s_author='Niran Babalola'
     />
 
     <Row
