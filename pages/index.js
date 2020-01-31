@@ -213,27 +213,14 @@ export default function Index() {
           <br />
           <div className="container">
             <div className="row justify-content-center">
-              <i style={{ fontSize: '14px' }}>
-                Read full agenda <a href="schedule">here</a>.
+              <i style={{ fontSize: '18px' }}>
+                Check out the full agenda <a href="schedule">here</a> ✨
               </i>
             </div>
             <br />
             <br />
-            <div className="row justify-content-center">
-              <i style={{ fontSize: '14px' }}>
-                Have something to say about open source sustainability in Web3?
-              </i>
-            </div>
-            <br />
-            <div className="row justify-content-center">
-              <a className="subscribe button" href="https://gitcoin.typeform.com/to/pkjlfI" target="_blank" rel="noopener noreferrer">
-                Apply to speak ✨
-              </a>
-            </div>
             <br />
           </div>
-          <br />
-          <br />
           <hr />
           <div className="row justify-content-left">
             <h3 id="sponsors">
