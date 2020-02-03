@@ -186,8 +186,8 @@ export default function Index() {
               />
               <Speaker
                 name="James Waugh"
-                company="Axia Labs"
-                companyUrl="https://consensys.net/grants/"
+                company="MetaCartel"
+                companyUrl="https://www.metacartel.org/"
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580461672/IMG_51019__1_2_uyjvzu.jpg"
               />
               <Speaker
