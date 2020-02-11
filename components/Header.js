@@ -82,8 +82,11 @@ export default function Header() {
       </div>
       <br/>
       <br/>
-      <div className="row col justify-content-center">
+      <div className="row justify-content-center">
+      <div className="col-xs-12 col-sm-12 col-md-4 mt-3">
         <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
+        </div>
+        <a className="subscribe button" href="/livestream" target="_blank" rel="noopener noreferrer">Watch the livestream!</a>
       </div>
       <br />
       <br/>
