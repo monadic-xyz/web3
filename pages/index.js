@@ -124,10 +124,17 @@ export default function Index() {
                 picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1576854843/Profile_pic_griff_headshot_ycayri.png"
               />
               <Speaker
-                name="Makoto Inoue"
-                company="Kickback"
-                companyUrl="https://kickback.events/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1580460858/makoto_i0jyqa.jpg"
+                name="Liz Daldalian"
+                company="Truffle"
+                companyUrl="https://www.trufflesuite.com/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1581481697/Liz_Daldalian_Headshot_vp24dn.png"
+                />
+
+              <Speaker
+                name="Erin Shaben"
+                company="Truffle"
+                companyUrl="https://www.trufflesuite.com/"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1581481715/Erin_Shaben_hnztx7.jpg"
                 />
 
               <Speaker
@@ -171,12 +178,6 @@ export default function Index() {
                 company="Parity Technologies"
                 companyUrl="https://www.parity.io/"
                 picUrl="https://ethcc.io/images/speakers_2020/Phil_Lucsok.jpg"
-              />
-              <Speaker
-                name="Duane O'Brien"
-                company="Indeed.com"
-                companyUrl="https://www.indeed.com/"
-                picUrl="https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462683/TWNMZW5kb25fUGhvdG9ncmFwaHlfOTY5Nl9vbjZlbTI=/drilldown"
               />
               <Speaker
                 name="Vivek Singh"

@@ -68,6 +68,11 @@ a {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     text-decoration: none;
   }
+
+  @media (max-width: 640px) {
+  font-size: 0.8em;
+  line-height: 32px;
+  }
 }
 
 .button1 {
