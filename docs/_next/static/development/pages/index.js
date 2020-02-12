@@ -1350,7 +1350,7 @@ var Mainstage_Table = function Mainstage_Table() {
     __self: this
   }), __jsx(Row, {
     time: "13:40",
-    m_name: "Cryptoeconomics and FOSS Sustainability",
+    m_name: "Designing for Resilience in Web3",
     m_author: "Eleftherios Diakomichalis",
     s_name: "The Path to DAO Sustainability: Funding the Web3 Ecosystem ",
     s_author: "James Waugh",
@@ -12549,7 +12549,7 @@ function Index() {
     name: "Erin Shaben",
     company: "Truffle",
     companyUrl: "https://www.trufflesuite.com/",
-    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1581481715/Erin_Shaben_hnztx7.jpg",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1581523729/Erin_Shaben_hnztx7.jpg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 133
