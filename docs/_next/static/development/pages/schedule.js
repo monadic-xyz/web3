@@ -351,32 +351,56 @@ function Header() {
     },
     __self: this
   }), __jsx("div", {
-    className: "row col justify-content-center",
+    className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, __jsx("a", {
-    className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
-    target: "_blank",
-    rel: "noopener noreferrer",
+  }, __jsx("div", {
+    className: "col text-center mt-4 pl-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, "Sign up to attend!")), __jsx("br", {
+  }, __jsx("a", {
+    className: "livestream button",
+    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
+    },
+    __self: this
+  }, "Sign up to attend!")), __jsx("div", {
+    className: "col text-center mt-4 pr-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "livestream button",
+    href: "/livestream",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Watch the livestream!"))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 94
     },
     __self: this
   }));
@@ -975,7 +999,7 @@ var Nav = function Nav() {
     },
     __self: this
   }, "Contact")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    href: "/livestream",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -985,6 +1009,19 @@ var Nav = function Nav() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: this
+  }, "Livestream")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, "Attend!"))));
@@ -1252,8 +1289,8 @@ var Mainstage_Table = function Mainstage_Table() {
     __self: this
   }), __jsx(Row, {
     time: "10:40",
-    m_name: "TBD",
-    m_author: "Duane O`Brien",
+    m_name: "Why am I not funded?",
+    m_author: "Eric Berry",
     s_name: "Sustainably Building the Infrastructure for Web3",
     s_author: "Aidan Hyman",
     __source: {
@@ -1285,8 +1322,8 @@ var Mainstage_Table = function Mainstage_Table() {
     __self: this
   }), __jsx(Row, {
     time: "12:10",
-    m_name: "Why am I not funded?",
-    m_author: "Eric Berry",
+    m_name: "Running a Sustainable Web3 Business After Incubation",
+    m_author: "Liz Daldalian & Erin Shaben",
     s_name: "Convincing the World to Cooperate with Incentivized DAOs",
     s_author: "Niran Babalola",
     __source: {
@@ -1297,7 +1334,7 @@ var Mainstage_Table = function Mainstage_Table() {
   }), __jsx(Row, {
     time: "12:40",
     m_name: "The Language of Sustainability",
-    m_author: "Phil Lucsok and Joe Petrowski",
+    m_author: "Phil Lucsok & Joe Petrowski",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
@@ -1338,8 +1375,8 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "14:50",
     m_name: "SourceCred Cryptoeconomics",
     m_author: "Dandelion Mane",
-    s_name: "Open Source Full Monty - Can you go all the way?",
-    s_author: "Makoto Inoue",
+    s_name: "Building Open Source Companies",
+    s_author: "Vivek Singh",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
@@ -1349,8 +1386,8 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "15:20",
     m_name: "Zcash`s Dev Fund Process",
     m_author: "Josh Cincinnati",
-    s_name: "Building Open Source Companies",
-    s_author: "Vivek Singh",
+    s_name: "Commons Stack: A New Alternative for Funding Open Source",
+    s_author: "Griff Green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 114
@@ -1360,8 +1397,6 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "15:50",
     m_name: "Governance in Decentralized, Open Source Projects",
     m_author: "Hudson Jameson",
-    s_name: "Commons Stack: A New Alternative for Funding Open Source",
-    s_author: "Griff Green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 122
@@ -1373,7 +1408,7 @@ var Mainstage_Table = function Mainstage_Table() {
     m_author: "Nathan Schneider",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 128
     },
     __self: this
   }), __jsx(Row, {
@@ -1382,14 +1417,14 @@ var Mainstage_Table = function Mainstage_Table() {
     m_author: "Vitalik Buterin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 133
     },
     __self: this
   }), __jsx("div", {
     className: "background",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 138
     },
     __self: this
   }, __jsx(Row, {
@@ -1397,7 +1432,7 @@ var Mainstage_Table = function Mainstage_Table() {
     m_name: "CLOSING -> HAPPY HOUR",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 139
     },
     __self: this
   })));
@@ -12214,7 +12249,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js ***!
   \***************************************************************************************************************************************************************/
@@ -12237,5 +12272,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=schedule.js.map

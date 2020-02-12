@@ -351,32 +351,56 @@ function Header() {
     },
     __self: this
   }), __jsx("div", {
-    className: "row col justify-content-center",
+    className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, __jsx("a", {
-    className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
-    target: "_blank",
-    rel: "noopener noreferrer",
+  }, __jsx("div", {
+    className: "col text-center mt-4 pl-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, "Sign up to attend!")), __jsx("br", {
+  }, __jsx("a", {
+    className: "livestream button",
+    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 87
+    },
+    __self: this
+  }, "Sign up to attend!")), __jsx("div", {
+    className: "col text-center mt-4 pr-5",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "livestream button",
+    href: "/livestream",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Watch the livestream!"))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
     },
     __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 94
     },
     __self: this
   }));
@@ -975,7 +999,7 @@ var Nav = function Nav() {
     },
     __self: this
   }, "Contact")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    href: "/livestream",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -985,6 +1009,19 @@ var Nav = function Nav() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: this
+  }, "Livestream")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, "Attend!"))));
@@ -1252,8 +1289,8 @@ var Mainstage_Table = function Mainstage_Table() {
     __self: this
   }), __jsx(Row, {
     time: "10:40",
-    m_name: "TBD",
-    m_author: "Duane O`Brien",
+    m_name: "Why am I not funded?",
+    m_author: "Eric Berry",
     s_name: "Sustainably Building the Infrastructure for Web3",
     s_author: "Aidan Hyman",
     __source: {
@@ -1285,8 +1322,8 @@ var Mainstage_Table = function Mainstage_Table() {
     __self: this
   }), __jsx(Row, {
     time: "12:10",
-    m_name: "Why am I not funded?",
-    m_author: "Eric Berry",
+    m_name: "Running a Sustainable Web3 Business After Incubation",
+    m_author: "Liz Daldalian & Erin Shaben",
     s_name: "Convincing the World to Cooperate with Incentivized DAOs",
     s_author: "Niran Babalola",
     __source: {
@@ -1297,7 +1334,7 @@ var Mainstage_Table = function Mainstage_Table() {
   }), __jsx(Row, {
     time: "12:40",
     m_name: "The Language of Sustainability",
-    m_author: "Phil Lucsok and Joe Petrowski",
+    m_author: "Phil Lucsok & Joe Petrowski",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 79
@@ -1338,8 +1375,8 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "14:50",
     m_name: "SourceCred Cryptoeconomics",
     m_author: "Dandelion Mane",
-    s_name: "Open Source Full Monty - Can you go all the way?",
-    s_author: "Makoto Inoue",
+    s_name: "Building Open Source Companies",
+    s_author: "Vivek Singh",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 106
@@ -1349,8 +1386,8 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "15:20",
     m_name: "Zcash`s Dev Fund Process",
     m_author: "Josh Cincinnati",
-    s_name: "Building Open Source Companies",
-    s_author: "Vivek Singh",
+    s_name: "Commons Stack: A New Alternative for Funding Open Source",
+    s_author: "Griff Green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 114
@@ -1360,8 +1397,6 @@ var Mainstage_Table = function Mainstage_Table() {
     time: "15:50",
     m_name: "Governance in Decentralized, Open Source Projects",
     m_author: "Hudson Jameson",
-    s_name: "Commons Stack: A New Alternative for Funding Open Source",
-    s_author: "Griff Green",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 122
@@ -1373,7 +1408,7 @@ var Mainstage_Table = function Mainstage_Table() {
     m_author: "Nathan Schneider",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 128
     },
     __self: this
   }), __jsx(Row, {
@@ -1382,14 +1417,14 @@ var Mainstage_Table = function Mainstage_Table() {
     m_author: "Vitalik Buterin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 133
     },
     __self: this
   }), __jsx("div", {
     className: "background",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 138
     },
     __self: this
   }, __jsx(Row, {
@@ -1397,7 +1432,7 @@ var Mainstage_Table = function Mainstage_Table() {
     m_name: "CLOSING -> HAPPY HOUR",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 139
     },
     __self: this
   })));
@@ -12502,13 +12537,23 @@ function Index() {
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    name: "Makoto Inoue",
-    company: "Kickback",
-    companyUrl: "https://kickback.events/",
-    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460858/makoto_i0jyqa.jpg",
+    name: "Liz Daldalian",
+    company: "Truffle",
+    companyUrl: "https://www.trufflesuite.com/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1581481697/Liz_Daldalian_Headshot_vp24dn.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 126
+    },
+    __self: this
+  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    name: "Erin Shaben",
+    company: "Truffle",
+    companyUrl: "https://www.trufflesuite.com/",
+    picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1581481715/Erin_Shaben_hnztx7.jpg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12518,7 +12563,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460859/headshot_large_ompv7x.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 140
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12528,7 +12573,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460879/KarlFloersch_ohitjk.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139
+      lineNumber: 146
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12538,7 +12583,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580460867/twitter_profile_photo_mbftrk.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 152
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12548,7 +12593,7 @@ function Index() {
     picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462851/QWlkYW4yX3R4dnE4aw==/drilldown",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 158
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12558,7 +12603,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1575978168/laneheadshot_wkgsio.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157
+      lineNumber: 164
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12568,7 +12613,7 @@ function Index() {
     picUrl: "https://ethcc.io/images/speakers_2020/Joe_Petrowski.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 170
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12578,17 +12623,7 @@ function Index() {
     picUrl: "https://ethcc.io/images/speakers_2020/Phil_Lucsok.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
-    },
-    __self: this
-  }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    name: "Duane O'Brien",
-    company: "Indeed.com",
-    companyUrl: "https://www.indeed.com/",
-    picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462683/TWNMZW5kb25fUGhvdG9ncmFwaHlfOTY5Nl9vbjZlbTI=/drilldown",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 176
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12598,17 +12633,17 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580461855/download_6_hlvp47.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 182
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
     name: "James Waugh",
-    company: "Axia Labs",
-    companyUrl: "https://consensys.net/grants/",
+    company: "MetaCartel",
+    companyUrl: "https://www.metacartel.org/",
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580461672/IMG_51019__1_2_uyjvzu.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 188
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12618,7 +12653,7 @@ function Index() {
     picUrl: "https://res.cloudinary.com/dvargvav9/image/upload/v1580462789/00010039_usmlol.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 194
     },
     __self: this
   }), __jsx(_components_Lecturer__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -12628,27 +12663,27 @@ function Index() {
     picUrl: "https://res-console.cloudinary.com/dvargvav9/thumbnails/transform/v1/image/upload//v1580462959/cHJvZmlsZV9wcXNqeXg=/drilldown",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199
+      lineNumber: 200
     },
     __self: this
   }))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 207
+      lineNumber: 208
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 209
     },
     __self: this
   }, __jsx("div", {
     className: "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209
+      lineNumber: 210
     },
     __self: this
   }, __jsx("i", {
@@ -12657,23 +12692,17 @@ function Index() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 210
+      lineNumber: 211
     },
     __self: this
   }, "Check out the full agenda ", __jsx("a", {
     href: "schedule",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 212
     },
     __self: this
   }, "here"), " \u2728")), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 214
-    },
-    __self: this
-  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 215
@@ -12685,43 +12714,49 @@ function Index() {
       lineNumber: 216
     },
     __self: this
+  }), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 217
+    },
+    __self: this
   })), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218
+      lineNumber: 219
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 220
     },
     __self: this
   }, __jsx("h3", {
     id: "sponsors",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 221
     },
     __self: this
   }, __jsx(_components_Icons__WEBPACK_IMPORTED_MODULE_6__["SponsorsIcon"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221
+      lineNumber: 222
     },
     __self: this
   }), " Coordinators")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 225
     },
     __self: this
   }), __jsx("div", {
     className: "row justify-content-around",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225
+      lineNumber: 226
     },
     __self: this
   }, __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12730,7 +12765,7 @@ function Index() {
     logoAlt: "Gitcoin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226
+      lineNumber: 227
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12739,7 +12774,7 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 231
+      lineNumber: 232
     },
     __self: this
   }), __jsx(_components_Sponsors__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -12748,26 +12783,26 @@ function Index() {
     logoAlt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236
+      lineNumber: 237
     },
     __self: this
   }))), __jsx("div", {
     className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244
+      lineNumber: 245
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245
+      lineNumber: 246
     },
     __self: this
   }), __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 247
     },
     __self: this
   }, "In addition to SustainWeb3, Gitcoin will hosting a ", __jsx("a", {
@@ -12776,7 +12811,7 @@ function Index() {
     rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 247
     },
     __self: this
   }, "two week virtual hackathon"), " leading up to the event. Join blockchain companies and open-source contributors from around the world for to help grow the decentralized web, with select winners presented on stage at SustainWeb3."))));
@@ -12784,7 +12819,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Findex.js ***!
   \****************************************************************************************************************************************************/
@@ -12807,5 +12842,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
