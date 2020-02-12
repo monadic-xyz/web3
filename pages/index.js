@@ -134,7 +134,7 @@ export default function Index() {
                 name="Erin Shaben"
                 company="Truffle"
                 companyUrl="https://www.trufflesuite.com/"
-                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1581481715/Erin_Shaben_hnztx7.jpg"
+                picUrl="https://res.cloudinary.com/dvargvav9/image/upload/v1581523729/Erin_Shaben_hnztx7.jpg"
                 />
 
               <Speaker
