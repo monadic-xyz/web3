@@ -202,7 +202,7 @@ function Header() {
     __self: this
   }, __jsx("a", {
     className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
+    href: "https://gitcoin.typeform.com/to/LCrqyg",
     target: "_blank",
     rel: "noopener noreferrer",
     __source: {
