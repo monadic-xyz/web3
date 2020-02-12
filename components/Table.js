@@ -91,7 +91,7 @@ const Mainstage_Table = () => (
 
     <Row
       time= '13:40'
-      m_name='Cryptoeconomics and FOSS Sustainability'
+      m_name='Designing for Resilience in Web3'
       m_author='Eleftherios Diakomichalis'
       s_name='The Path to DAO Sustainability: Funding the Web3 Ecosystem '
       s_author='James Waugh'
