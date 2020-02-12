@@ -350,22 +350,21 @@ function Header() {
       lineNumber: 84
     },
     __self: this
-  }), __jsx("div", {
-    className: "row justify-content-center",
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, __jsx("div", {
-    className: "col text-center mt-4 pl-5",
+  }), __jsx("div", {
+    className: "row col justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
   }, __jsx("a", {
-    className: "livestream button",
+    className: "subscribe button",
     href: "https://gitcoin.typeform.com/to/TlO4BH",
     target: "_blank",
     rel: "noopener noreferrer",
@@ -374,36 +373,36 @@ function Header() {
       lineNumber: 87
     },
     __self: this
-  }, "Sign up to attend!")), __jsx("div", {
-    className: "col text-center mt-4 pr-5",
+  }, "Sign up to attend!")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, __jsx("a", {
-    className: "livestream button",
-    href: "/livestream",
-    target: "_blank",
-    rel: "noopener noreferrer",
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "Watch the livestream!"))), __jsx("br", {
+  }), __jsx("div", {
+    className: "row col justify-content-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 91
     },
     __self: this
-  }), __jsx("br", {
+  }, __jsx("a", {
+    className: "livestream",
+    href: "/livestream",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 92
     },
     __self: this
-  }));
+  }, "Can't attend? Watch the livestream! \u2728")));
 }
 
 /***/ }),

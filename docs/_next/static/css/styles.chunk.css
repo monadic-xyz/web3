@@ -371,6 +371,28 @@ footer {
         font-size: 0.8em;
         line-height: 32px; } }
 
+header .livestream {
+  font-size: 1.25em;
+  text-align: center;
+  font-weight: 500;
+  padding: 12px 20px;
+  color: #2EB5A0;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 64px;
+  text-decoration: none; }
+  header .livestream:hover {
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    text-decoration: none; }
+  header .livestream:active {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-decoration: none; }
+  @media (max-width: 640px) {
+    header .livestream {
+      font-size: 0.8em;
+      line-height: 32px; } }
+
 .container {
   width: 80%;
   max-width: 1200px; }
