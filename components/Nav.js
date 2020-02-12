@@ -13,6 +13,9 @@ import {LocationIcon, CalendarIcon} from '../components/Icons'
             <Link href="mailto:abbey@monadic.xyz">
               <a>Contact</a>
             </Link>
+            <Link href="/livestream">
+              <a>Livestream</a>
+            </Link>
             <Link href="https://gitcoin.typeform.com/to/TlO4BH">
               <a>Attend!</a>
             </Link>

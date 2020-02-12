@@ -69,26 +69,8 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="container">
-        <div className="row text-center event-info">
-          <div className="col-xs-12 col-sm-12 col-md-6 mt-3">
-            <h6>📍 Denver, Colorado</h6>
-          </div>
-          <div className="col-xs-12 col-sm-12 col-md-6 mt-3">
-            <h6>📆 February 13th, 2020</h6>
-            <span>(at the same venue as <a href="https://www.ethdenver.com/">ETHDenver</a>)</span>
-          </div>
-        </div>
-      </div>
-      <br/>
-      <br/>
-      <div className="row justify-content-center">
-        <div className="col text-center mt-4 pl-5">
-        <a className="livestream button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
-        </div>
-        <div className="col text-center mt-4 pr-5">
-        <a className="livestream button" href="/livestream" target="_blank" rel="noopener noreferrer">Watch the livestream!</a>
-      </div>
+      <div className="row col justify-content-center">
+        <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Livestream Sign-up</a>
       </div>
       <br />
       <br/>

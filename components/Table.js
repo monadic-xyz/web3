@@ -49,8 +49,8 @@ const Mainstage_Table = () => (
     />
     <Row
       time= '10:40'
-      m_name='TBD'
-      m_author='Duane O`Brien'
+      m_name='Why am I not funded?'
+      m_author='Eric Berry'
       s_name='Sustainably Building the Infrastructure for Web3'
       s_author='Aidan Hyman'
     />
@@ -70,8 +70,8 @@ const Mainstage_Table = () => (
     />
     <Row
       time= '12:10'
-      m_name='Why am I not funded?'
-      m_author='Eric Berry'
+      m_name='Running a Sustainable Web3 Business After Incubation'
+      m_author='Liz Daldalian & Erin Shaben'
       s_name='Convincing the World to Cooperate with Incentivized DAOs'
       s_author='Niran Babalola'
 
@@ -79,7 +79,7 @@ const Mainstage_Table = () => (
     <Row
       time= '12:40'
       m_name='The Language of Sustainability'
-      m_author='Phil Lucsok and Joe Petrowski'
+      m_author='Phil Lucsok & Joe Petrowski'
 
     />
 
@@ -107,24 +107,23 @@ const Mainstage_Table = () => (
       time= '14:50'
       m_name='SourceCred Cryptoeconomics'
       m_author='Dandelion Mane'
-      s_name='Open Source Full Monty - Can you go all the way?'
-      s_author='Makoto Inoue'
+      s_name='Building Open Source Companies'
+      s_author='Vivek Singh'
 
     />
     <Row
       time= '15:20'
       m_name='Zcash`s Dev Fund Process'
       m_author='Josh Cincinnati'
-      s_name='Building Open Source Companies'
-      s_author='Vivek Singh'
+      s_name='Commons Stack: A New Alternative for Funding Open Source'
+      s_author='Griff Green'
 
     />
     <Row
       time= '15:50'
       m_name='Governance in Decentralized, Open Source Projects'
       m_author='Hudson Jameson'
-      s_name='Commons Stack: A New Alternative for Funding Open Source'
-      s_author='Griff Green'
+
     />
     <Row
       time= '16:20'

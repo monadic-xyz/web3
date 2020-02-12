@@ -46,7 +46,7 @@ a {
 }
 
 .button {
-  font-size:1.5em;
+  font-size:1.45em;
   text-align: center;
   font-weight: 500;
   padding: 20px 20px;
@@ -67,6 +67,11 @@ a {
   &:active {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     text-decoration: none;
+  }
+
+  @media (max-width: 640px) {
+  font-size: 0.8em;
+  line-height: 32px;
   }
 }
 
