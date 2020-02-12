@@ -128,6 +128,36 @@ footer {
   }
 }
 
+header {
+  .livestream {
+    font-size:1.25em;
+    text-align: center;
+    font-weight: 500;
+    padding: 12px 20px;
+    color: $green;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 64px;
+    text-decoration: none;
+
+    &:hover {
+      color:white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+    }
+
+    &:active {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+    font-size: 0.8em;
+    line-height: 32px;
+  }
+  }
+}
+
 //BOOTSTRAP MODS
 .container{
   width:80%;

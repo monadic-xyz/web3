@@ -82,18 +82,15 @@ export default function Header() {
       </div>
       <br/>
       <br/>
-      <div className="row justify-content-center">
-        <div className="col text-center mt-4 pl-5">
-        <a className="livestream button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
-        </div>
-        <div className="col text-center mt-4 pr-5">
-        <a className="livestream button" href="/livestream" target="_blank" rel="noopener noreferrer">Watch the livestream!</a>
-      </div>
-      </div>
-      <br />
       <br/>
-
-
+      <div className="row col justify-content-center">
+        <a className="subscribe button" href="https://gitcoin.typeform.com/to/TlO4BH" target="_blank" rel="noopener noreferrer">Sign up to attend!</a>
+      </div>
+      <br/>
+      <br/>
+      <div className="row col justify-content-center">
+        <a className="livestream" href="/livestream" target="_blank" rel="noopener noreferrer">Can't attend? Watch the livestream! ✨</a>
+      </div>
     </header>
   )
 }
