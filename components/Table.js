@@ -65,7 +65,7 @@ const Mainstage_Table = () => (
       time= '11:40'
       m_name='A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability'
       m_author='Simona Pop'
-      s_name='All Tech is Political'
+      s_name='Thinking in Circles and Thinking in Lines'
       s_author='Lane Rettig'
     />
     <Row
@@ -91,7 +91,7 @@ const Mainstage_Table = () => (
 
     <Row
       time= '13:40'
-      m_name='Designing for Resilience in Web3'
+      m_name='Resilience, p2p and Web3'
       m_author='Eleftherios Diakomichalis'
       s_name='The Path to DAO Sustainability: Funding the Web3 Ecosystem '
       s_author='James Waugh'
@@ -105,7 +105,7 @@ const Mainstage_Table = () => (
     />
     <Row
       time= '14:50'
-      m_name='SourceCred Cryptoeconomics'
+      m_name='SourceCred: A Social Algorithm'
       m_author='Dandelion Mane'
       s_name='Building Open Source Companies'
       s_author='Vivek Singh'
