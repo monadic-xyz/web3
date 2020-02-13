@@ -1,101 +1,9 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/schedule.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/livestream.js"],{
 
-/***/ "./components/Footer.js":
-/*!******************************!*\
-  !*** ./components/Footer.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Footer; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Footer.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function Footer() {
-  return __jsx("footer", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx("a", {
-    className: "button",
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "Sign up to attend!"), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), __jsx("i", {
-    style: {
-      fontSize: "14px"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "For more information feel free to ", __jsx("a", {
-    href: "mailto:abbey@monadic.xyz",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "reach out"), "."));
-}
-
-/***/ }),
-
-/***/ "./components/Header.js":
-/*!******************************!*\
-  !*** ./components/Header.js ***!
-  \******************************/
+/***/ "./components/Blank_Header.js":
+/*!************************************!*\
+  !*** ./components/Blank_Header.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -111,7 +19,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Nav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Nav */ "./components/Nav.js");
 /* harmony import */ var _components_Logo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Logo */ "./components/Logo.js");
 /* harmony import */ var _components_Icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Icons */ "./components/Icons.js");
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Header.js";
+var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Blank_Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -286,123 +194,35 @@ function Header() {
     },
     __self: this
   }))), __jsx("div", {
-    className: "container",
+    className: "row col justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
-  }, __jsx("div", {
-    className: "row text-center event-info",
+  }, __jsx("a", {
+    className: "subscribe button",
+    href: "https://gitcoin.typeform.com/to/LCrqyg",
+    target: "_blank",
+    rel: "noopener noreferrer",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 73
     },
     __self: this
-  }, __jsx("div", {
-    className: "col-xs-12 col-sm-12 col-md-6 mt-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, __jsx("h6", {
+  }, "Livestream Sign-up")), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 75
     },
     __self: this
-  }, "\uD83D\uDCCD Denver, Colorado")), __jsx("div", {
-    className: "col-xs-12 col-sm-12 col-md-6 mt-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, __jsx("h6", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, "\uD83D\uDCC6 February 13th, 2020"), __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "(at the same venue as ", __jsx("a", {
-    href: "https://www.ethdenver.com/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "ETHDenver"), ")")))), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
   }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 76
     },
     __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "row col justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "subscribe button",
-    href: "https://gitcoin.typeform.com/to/TlO4BH",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }, "Sign up to attend!")), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "row col justify-content-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "livestream",
-    href: "/livestream",
-    target: "_blank",
-    rel: "noopener noreferrer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "Can't attend? Watch the livestream! \u2728")));
+  }));
 }
 
 /***/ }),
@@ -765,106 +585,6 @@ SpeakersIcon.propTypes = {
 
 /***/ }),
 
-/***/ "./components/Lecturer.js":
-/*!********************************!*\
-  !*** ./components/Lecturer.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Lecturer.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Speaker = function Speaker(_ref) {
-  var name = _ref.name,
-      company = _ref.company,
-      companyUrl = _ref.companyUrl,
-      picUrl = _ref.picUrl;
-  return __jsx("div", {
-    className: "col-xs-3 col-sm-4 col-md-4 col-lg-3 speaker",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("div", {
-    className: "imgWrap",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "avatar",
-    src: picUrl,
-    alt: "pic",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "meta",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("b", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, name), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: companyUrl,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, company))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Speaker);
-Speaker.propTypes = {
-  name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  company: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  companyUrl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  picUrl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
-};
-
-/***/ }),
-
 /***/ "./components/Logo.js":
 /*!****************************!*\
   !*** ./components/Logo.js ***!
@@ -1030,10 +750,10 @@ var Nav = function Nav() {
 
 /***/ }),
 
-/***/ "./components/Sponsors.js":
-/*!********************************!*\
-  !*** ./components/Sponsors.js ***!
-  \********************************/
+/***/ "./layouts/blank.js":
+/*!**************************!*\
+  !*** ./layouts/blank.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1043,450 +763,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Sponsors.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Sponsor = function Sponsor(_ref) {
-  var sponsorUrl = _ref.sponsorUrl,
-      logoUrl = _ref.logoUrl,
-      logoAlt = _ref.logoAlt;
-  return __jsx("div", {
-    className: "sponsorItem col-8 col-lg-4 text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: sponsorUrl,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("img", {
-    className: "logo",
-    src: logoUrl,
-    alt: logoAlt,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Sponsor);
-Sponsor.propTypes = {
-  sponsorUrl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  logoUrl: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  logoAlt: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
-};
-
-/***/ }),
-
-/***/ "./components/Table.js":
-/*!*****************************!*\
-  !*** ./components/Table.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/components/Table.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Row = function Row(_ref) {
-  var time = _ref.time,
-      m_name = _ref.m_name,
-      m_author = _ref.m_author,
-      s_name = _ref.s_name,
-      s_author = _ref.s_author,
-      title = _ref.title;
-  return __jsx("ul", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, time), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, m_name, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }), __jsx("a", {
-    href: "/index#speakers",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, m_author)), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, s_name, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), __jsx("a", {
-    href: "/index#speakers",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, s_author)), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, title));
-};
-
-var Header = function Header(_ref2) {
-  var sub1 = _ref2.sub1,
-      sub2 = _ref2.sub2;
-  return __jsx("ul", {
-    className: "row_header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, sub1, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  })), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, sub2, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  })));
-};
-
-Row.propTypes = {
-  time: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  name: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  author: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  title1: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  title2: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
-};
-
-var Mainstage_Table = function Mainstage_Table() {
-  return __jsx("div", {
-    className: "agenda",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(Header, {
-    sub1: "FIRST STAGE",
-    sub2: "SECOND STAGE",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "background",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, __jsx(Row, {
-    time: "9:00",
-    m_name: "Arrival & Breakfast",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "10:00",
-    m_name: "Welcome",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  })), __jsx(Row, {
-    time: "10:10",
-    m_name: "A New Hope for OSS Sustainability",
-    m_author: "Kevin Owocki",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "10:40",
-    m_name: "Why am I not funded?",
-    m_author: "Eric Berry",
-    s_name: "Sustainably Building the Infrastructure for Web3",
-    s_author: "Aidan Hyman",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "11:10",
-    m_name: "Open Source Means Everybody So Start Acting Like It",
-    m_author: "Jarrell James - Manesh Giday",
-    s_name: "DAOs + UX = Sustainability",
-    s_author: "James Duncan",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "11:40",
-    m_name: "A Return to Nature: Diversity and Interconnectivity in Natural Ecosystem Sustainability",
-    m_author: "Simona Pop",
-    s_name: "Thinking in Circles and Thinking in Lines",
-    s_author: "Lane Rettig",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "12:10",
-    m_name: "Running a Sustainable Web3 Business After Incubation",
-    m_author: "Liz Daldalian & Erin Shaben",
-    s_name: "Convincing the World to Cooperate with Incentivized DAOs",
-    s_author: "Niran Babalola",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "12:40",
-    m_name: "The Language of Sustainability",
-    m_author: "Phil Lucsok & Joe Petrowski",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "13:10",
-    m_name: "LUNCH",
-    s_name: "LUNCH",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "13:40",
-    m_name: "Resilience, p2p and Web3",
-    m_author: "Eleftherios Diakomichalis",
-    s_name: "The Path to DAO Sustainability: Funding the Web3 Ecosystem ",
-    s_author: "James Waugh",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "14:20",
-    m_name: "From Scalable to Sustainable Blockchains",
-    m_author: "Karl Floersch",
-    s_name: "The Economic Advantages of Web3: Technical Scalability, Social Scalability, and Economic Scalability",
-    s_author: "Danny Zuckerman",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "14:50",
-    m_name: "SourceCred: A Social Algorithm",
-    m_author: "Dandelion Mane",
-    s_name: "Building Open Source Companies",
-    s_author: "Vivek Singh",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 106
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "15:20",
-    m_name: "Zcash`s Dev Fund Process",
-    m_author: "Josh Cincinnati",
-    s_name: "Commons Stack: A New Alternative for Funding Open Source",
-    s_author: "Griff Green",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "15:50",
-    m_name: "Governance in Decentralized, Open Source Projects",
-    m_author: "Hudson Jameson",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "16:20",
-    m_name: "Startups need a new option: Exit to Community",
-    m_author: "Nathan Schneider",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }), __jsx(Row, {
-    time: "16:50",
-    m_name: "Closing Keynote",
-    m_author: "Vitalik Buterin",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 133
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "background",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138
-    },
-    __self: this
-  }, __jsx(Row, {
-    time: "17:20",
-    m_name: "CLOSING -> HAPPY HOUR",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Mainstage_Table);
-
-/***/ }),
-
-/***/ "./layouts/page.js":
-/*!*************************!*\
-  !*** ./layouts/page.js ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.js");
-/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
-/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/layouts/page.js";
+/* harmony import */ var _components_Blank_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Blank_Header */ "./components/Blank_Header.js");
+/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/style.scss */ "./styles/style.scss");
+/* harmony import */ var _styles_style_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_style_scss__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/layouts/blank.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
-
-var Page = function Page(_ref) {
+var Blank = function Blank(_ref) {
   var children = _ref.children;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Blank_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     },
     __self: this
-  }), children, __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }));
+  }), children);
 };
 
-Page.propTypes = {
+Blank.propTypes = {
   children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired
 };
-/* harmony default export */ __webpack_exports__["default"] = (Page);
+/* harmony default export */ __webpack_exports__["default"] = (Blank);
 
 /***/ }),
 
@@ -7838,21 +7139,21 @@ exports.SUPPORTS_PERFORMANCE_USER_TIMING = exports.SUPPORTS_PERFORMANCE && typeo
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js!./":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flivestream&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Flivestream.js!./":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flivestream&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Flivestream.js ***!
+  \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/schedule", function() {
-      var page = __webpack_require__(/*! ./pages/schedule.js */ "./pages/schedule.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/livestream", function() {
+      var page = __webpack_require__(/*! ./pages/livestream.js */ "./pages/livestream.js")
       if(true) {
-        module.hot.accept(/*! ./pages/schedule.js */ "./pages/schedule.js", function() {
-          if(!next.router.components["/schedule"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/schedule.js */ "./pages/schedule.js")
-          next.router.update("/schedule", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/livestream.js */ "./pages/livestream.js", function() {
+          if(!next.router.components["/livestream"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/livestream.js */ "./pages/livestream.js")
+          next.router.update("/livestream", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -12152,10 +11453,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/schedule.js":
-/*!***************************!*\
-  !*** ./pages/schedule.js ***!
-  \***************************/
+/***/ "./pages/livestream.js":
+/*!*****************************!*\
+  !*** ./pages/livestream.js ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12166,17 +11467,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layouts_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/page */ "./layouts/page.js");
-/* harmony import */ var _components_Table__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Table */ "./components/Table.js");
-/* harmony import */ var _components_Lecturer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Lecturer */ "./components/Lecturer.js");
-/* harmony import */ var _components_Sponsors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Sponsors */ "./components/Sponsors.js");
-var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/pages/schedule.js";
+/* harmony import */ var _layouts_blank__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../layouts/blank */ "./layouts/blank.js");
+var _jsxFileName = "/Users/abbeytitcomb/Documents/GitHub/gitcoin-x-radicle/pages/livestream.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
 
 
 function Index() {
@@ -12184,78 +11478,98 @@ function Index() {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 6
     },
     __self: this
-  }, __jsx(_layouts_page__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_layouts_blank__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 7
     },
     __self: this
-  }, __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("hr", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("div", {
+  }, __jsx("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 8
     },
     __self: this
   }, __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 9
     },
     __self: this
   }), __jsx("div", {
     "class": "row justify-content-center",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }))), __jsx("div", {
+    "class": "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/qG9yWRCn_NM",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, __jsx("h3", {
+  })), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
-  }, "Schedule \u2728")), __jsx(_components_Table__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }))));
+  }), __jsx("div", {
+    "class": "row justify-content-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("iframe", {
+    width: "560",
+    height: "315",
+    src: "https://www.youtube.com/embed/7e2m7SgR2Z8",
+    frameborder: "0",
+    allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
+    allowfullscreen: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  })));
 }
 
 /***/ }),
 
-/***/ 4:
-/*!***************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js ***!
-  \***************************************************************************************************************************************************************/
+/***/ 2:
+/*!*******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Flivestream&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Flivestream.js ***!
+  \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fschedule&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Fschedule.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Flivestream&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Flivestream.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Flivestream&absolutePagePath=%2FUsers%2Fabbeytitcomb%2FDocuments%2FGitHub%2Fgitcoin-x-radicle%2Fpages%2Flivestream.js!./");
 
 
 /***/ }),
@@ -12271,5 +11585,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=schedule.js.map
+},[[2,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=livestream.js.map
