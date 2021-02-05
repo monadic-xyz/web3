@@ -35,12 +35,25 @@ export default function Index() {
                   build software are buckling under demand.&nbsp;
                   <QuoteIcon />
                 </h4>
-                <h5> - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure </h5>
+                <h5>
+                  {' '}
+                  - Nadia Eghbal, Roads and Bridges: The Unseen Labor Behind Our
+                  Digital Infrastructure
+                </h5>
               </div>
               <br />
-              <p>As we start envisioning a "Web3", sustaining free and open source software is more important than ever - and more realistic. We're gathering technologists, economists, maintainers, and hackers who think Web3 is - A New Hope™ for free and open source software.<br /><br />Join us for a one-day gathering to discuss active initiatives, learn from industry luminaries, and start designing the future of Web3 sustainability ✨.</p>
-              <p>This event is <em>free to attend</em> with a "pay-what-you-can" donation model. The goal is to stick to traditional FOSS values and fund this event by and for the community. We'll be collecting donations through a <a href="https://gitcoin.co/grants/195/sustain-web3-sustainers" target="_blank" rel="noopener noreferrer">Gitcoin Grant</a>. Because of <a href="https://gitcoin.co/blog/gitcoin-grants-2020/" target="_blank" rel="noopener noreferrer">Quadratic matching</a> on the Gitcoin platform, even small contributions could go a long way.</p>
-              <p>→ Can't attend but interested in sponsoring SustainWeb3? Get in touch <a href="https://gitcoin.co/grants/195/sustain-web3-sustainers" target="_blank" rel="noopener noreferrer">here</a>.</p>
+              <p>
+                As we start envisioning a "Web3", sustaining free and open
+                source software is more important than ever - and more
+                realistic. We're gathering technologists, economists,
+                maintainers, and hackers who think Web3 is - A New Hope™ for
+                free and open source software.
+                <br />
+                <br />
+                Join us for a one-day gathering to discuss active initiatives,
+                learn from industry luminaries, and start designing the future
+                of Web3 sustainability ✨.
+              </p>
               <br />
             </div>
           </div>
